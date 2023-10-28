@@ -14,8 +14,10 @@ function header() {
         <Navbar.Brand href="#home">
           <img src={Logo} alt="" className=" align-top" />
         </Navbar.Brand>
+        <div className="d-flex">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
+        
+        <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="">
             <NavDropdown title="About Us" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
@@ -32,6 +34,7 @@ function header() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        </div>
       </Container>
     </Navbar>
   );
