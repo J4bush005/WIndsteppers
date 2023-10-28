@@ -7,7 +7,7 @@ function Home() {
         target: ref,
         offset: ["start start", "end start"],
     });
-    const backgroundY = useTransform(scrollYProgress, [0,1], ["0%", "-20%"]);
+    const backgroundY = useTransform(scrollYProgress, [0,1], ["0%", "-50%"]);
   return (
     <>
      <Open/>

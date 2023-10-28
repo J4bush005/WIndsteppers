@@ -12,7 +12,7 @@ function header() {
     <div id="nav-styles">
       <Navbar expand="lg" className="bg-none">
         <Container fluid>
-          <Navbar.Brand href="#home" className="">
+          <Navbar.Brand href="/" className="">
             <img src={Logo} alt="" className=" align-top" />
           </Navbar.Brand>
           <div className="d-flex ">
@@ -24,7 +24,7 @@ function header() {
                   title={<span className="text-light">About Us</span>}
                   id="basic-nav-dropdown"
                 >
-                  <NavDropdown.Item href="#action/3.1">
+                  <NavDropdown.Item href="/about">
                     Our History
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
