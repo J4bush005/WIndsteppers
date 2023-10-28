@@ -7,16 +7,20 @@ function Open() {
     target: ref,
     offset: ["start start", "end start"],
   });
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
+  const moveUp = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
+  const moveHeader = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
   return (
-    <motion.div style={{y:textY}} >
-    <section id="open-section" className="page-section call-to-action d-flex">
-      <Header />
-      <h1 id="team-name" className="text-break">
-        Windsteppers
-     </h1>
-    </section>
-     </motion.div>
+    <motion.div style={{ y: moveUp }}>
+      <section id="open-section" className="page-section call-to-action d-flex">
+        <motion.div style={{ y: moveHeader }}>
+          <Header />
+        </motion.div>
+        <motion.h1 style={{ y: textY }} id="team-name" className="text-break">
+          Windsteppers
+        </motion.h1>
+      </section>
+    </motion.div>
   );
 }
 
