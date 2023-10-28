@@ -4,11 +4,11 @@ import { Container } from "react-bootstrap";
 function home() {
   return (
     <>
-      <section id="open-section">
+      <section id="open-section" className="page-section call-to-action d-flex">
       <Header />
-      <div id="team-name">
+      <h1 id="team-name" className="text-break">
         Windsteppers
-      </div>
+      </h1>
       </section>
     </>
   );
