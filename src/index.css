@@ -38,3 +38,7 @@ body {
   /*color: rgb(62, 7, 62);*/
   font-family: 'Times New Roman', Times, serif;
 }
+
+#test{
+  font-size: 300px;
+}
