@@ -16,6 +16,7 @@ function Open() {
         <motion.div style={{ y: moveHeader }}>
           <Header />
         </motion.div>
+        <h1 id="scripture-abbr">Ecc 9:11</h1>
         <motion.h1 style={{ y: textY }} id="team-name" className="text-break">
           Windsteppers
         </motion.h1>

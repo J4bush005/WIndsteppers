@@ -12,10 +12,10 @@ function header() {
     <div id="nav-styles">
       <Navbar expand="lg" className="bg-none">
         <Container fluid>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" className="">
             <img src={Logo} alt="" className=" align-top" />
           </Navbar.Brand>
-          <div className="d-flex">
+          <div className="d-flex ">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
             <Navbar.Collapse id="basic-navbar-nav">
