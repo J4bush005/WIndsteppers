@@ -4,12 +4,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-import Logo from "../Photos/Windsteppers-Logo.webp";
+import Logo from "../Photos/Updated Windsteppers-Logo.webp";
 import Cart from "../Photos/shopping-cart.webp"
 
 function header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-none">
       <Container fluid>
         <Navbar.Brand href="#home">
           <img src={Logo} alt="" className=" align-top" />
