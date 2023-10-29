@@ -15,6 +15,7 @@ function Home() {
     offset: ["start start", "end start"],
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
   return (
     <div id="container">
       <div id="full-image">
@@ -22,6 +23,7 @@ function Home() {
       </div>
       <motion.div style={{ y: backgroundY }}>
         <section id="building" className="">
+          <motion.div style={{textY}}>
           <h1
             id="champions"
             className="display-1 d-flex justify-content-center"
@@ -79,6 +81,7 @@ function Home() {
               <img src={Sage} alt="" className="img-fluid" id="sage" />
             </motion.div>
           </div>
+          </motion.div>
           <section id="membership">
             <h1
               id="champions"

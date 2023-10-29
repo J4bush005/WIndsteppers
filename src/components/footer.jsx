@@ -8,7 +8,7 @@ const mine = "https://www.forbushtech.com/";
 
 function Footer() {
     return (
-      <div class="container my-5 foot">
+      <div id='foot' class="container my-5 foot">
       <footer class="text-center">
         <div class="container">
           <section class="mt-5">
@@ -16,7 +16,7 @@ function Footer() {
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
                   <Link to="/Estimate" class="foot-hover">
-                    Request An Estimate
+                    Buy Gear
                   </Link>
                 </h6>
               </div>
@@ -24,14 +24,14 @@ function Footer() {
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
                   <Link to="/Services" class="foot-hover">
-                    Services
+                    Contact Us
                   </Link>
                 </h6>
               </div>
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
                   <Link to="/About" class="foot-hover">
-                    Reviews
+                    Athlete Portal
                   </Link>
                 </h6>
               </div>
@@ -39,14 +39,14 @@ function Footer() {
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
                   <Link to="/About" class="foot-hover">
-                    Find a Career
+                    Buy a Membership
                   </Link>
                 </h6>
               </div>
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
                   <Link to="/Contact" class="foot-hover">
-                    Contact
+                    SMBC Baptist Church
                   </Link>
                 </h6>
               </div>
@@ -94,7 +94,7 @@ function Footer() {
             </Link>
           </section>
         </div>
-        <div class="text-center p-3">
+        <div id="designed" class="text-center p-3">
           Designed by:
           <Link
             to="/"
