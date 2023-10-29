@@ -18,6 +18,23 @@ body {
 }
 
 /*HOME PAGE*/
+
+.membership-btn{
+  background-color: rgba(144, 24, 255);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-size: large;
+  width: 150px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.membership-btn:hover{
+  color: rgb(255, 221, 29);
+  transform: scale(1.15);
+}
+
 #open-section {
   margin: 0 0 0 0;
   -webkit-background-size: cover;
@@ -53,6 +70,7 @@ body {
 #champions {
   margin-top: 50px;
   color: rgb(144, 24, 255);
+  text-shadow: 2px 2px 4px rgb(255, 221, 29);
 }
 
 #words {
