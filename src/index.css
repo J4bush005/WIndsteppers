@@ -17,6 +17,13 @@ body {
   font-size: x-large;
 }
 
+/*Foot*/
+.foot{
+  color: rgb(144, 24, 255);
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
 /*HOME PAGE*/
 
 .membership-btn{

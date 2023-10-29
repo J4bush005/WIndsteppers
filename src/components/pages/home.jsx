@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Open from "../open-image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Button from "react-bootstrap/Button";
+import Footer from "../footer";
 
 import Family from "../../Photos/Opening-Picture.webp";
 import Jamison from "../../Photos/Jamison Medal.webp";
@@ -30,7 +30,7 @@ function Home() {
           </h1>
           <div className="d-flex justify-content-evenly">
             <div className="col-6">
-              <div className="ratio ratio-16x9">
+              <div className="ratio ratio-21x9">
                 <iframe
                   src="https://www.youtube.com/embed/-CtD2fIFG-Q?autoplay=1&loop=1&playlist=-CtD2fIFG-Q"
                   title="Youtube video"
@@ -51,15 +51,33 @@ function Home() {
             </div>
           </div>
           <div id="picture-format" className="d-flex justify-content-center">
-            <div className="col d-flex justify-content-center">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 0.5 }}
+              viewport={{ once: true }}
+              className="col d-flex justify-content-center"
+            >
               <img src={Jamison} alt="" className="img-fluid" id="jamison" />
-            </div>
-            <div className="col d-flex justify-content-center">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 1.5 }}
+              viewport={{ once: true }}
+              className="col d-flex justify-content-center"
+            >
               <img src={Thomas} alt="" className="img-fluid" id="thomas" />
-            </div>
-            <div className="col d-flex justify-content-center">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 2.5 }}
+              viewport={{ once: true }}
+              className="col d-flex justify-content-center"
+            >
               <img src={Sage} alt="" className="img-fluid" id="sage" />
-            </div>
+            </motion.div>
           </div>
           <section id="membership">
             <h1
@@ -97,6 +115,7 @@ function Home() {
               </div>
             </div>
           </section>
+          <Footer />
         </section>
       </motion.div>
     </div>
