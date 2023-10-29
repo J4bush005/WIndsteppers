@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Header from ".//header";
-import { animate, motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 function Open() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({

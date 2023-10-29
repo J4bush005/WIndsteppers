@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
-const linked = "https://www.linkedin.com/in/johnathon-forbush-a4ba3373/";
 const mine = "https://www.forbushtech.com/";
 
 function Footer() {

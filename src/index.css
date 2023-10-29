@@ -49,7 +49,8 @@ body {
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
   font-size: large;
-  width: 150px;
+  width: 700px;
+  height: 70px;
   border-radius: 10px;
   transition: all 0.3s;
 }
@@ -57,6 +58,13 @@ body {
 .membership-btn:hover{
   color: rgb(255, 221, 29);
   transform: scale(1.15);
+}
+
+#get-membership{
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+  
 }
 
 #open-section {
@@ -132,6 +140,6 @@ body {
 }
 
 #join-button{
-  padding-left: 2%;
   font-family: 'Times New Roman', Times, serif;
+  width: 100%;
 }

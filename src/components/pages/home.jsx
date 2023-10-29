@@ -15,7 +15,7 @@ function Home() {
     offset: ["start start", "end start"],
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-5%"]);
   return (
     <div id="container">
       <div id="full-image">
@@ -23,73 +23,23 @@ function Home() {
       </div>
       <motion.div style={{ y: backgroundY }}>
         <section id="building" className="">
-          <motion.div style={{textY}}>
-          <h1
-            id="champions"
-            className="display-1 d-flex justify-content-center"
-          >
-            Building Champions
-          </h1>
-          <div className="d-flex justify-content-evenly">
-            <div className="col-6">
-              <div className="ratio ratio-21x9">
-                <iframe
-                  src="https://www.youtube.com/embed/-CtD2fIFG-Q?autoplay=1&loop=1&playlist=-CtD2fIFG-Q"
-                  title="Youtube video"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-            <div className="col-6">
-              <div id="words" className="r-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
-          </div>
-          <div id="picture-format" className="d-flex justify-content-center">
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 0.5 }}
-              viewport={{ once: true }}
-              className="col d-flex justify-content-center"
-            >
-              <img src={Jamison} alt="" className="img-fluid" id="jamison" />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 1.5 }}
-              viewport={{ once: true }}
-              className="col d-flex justify-content-center"
-            >
-              <img src={Thomas} alt="" className="img-fluid" id="thomas" />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 2.5 }}
-              viewport={{ once: true }}
-              className="col d-flex justify-content-center"
-            >
-              <img src={Sage} alt="" className="img-fluid" id="sage" />
-            </motion.div>
-          </div>
-          </motion.div>
-          <section id="membership">
+          <motion.div style={{ y: textY }}>
             <h1
               id="champions"
               className="display-1 d-flex justify-content-center"
             >
-              Join the Family
+              Building Champions
             </h1>
             <div className="d-flex justify-content-evenly">
+              <div className="col-6">
+                <div className="ratio ratio-21x9">
+                  <iframe
+                    src="https://www.youtube.com/embed/-CtD2fIFG-Q?autoplay=1&loop=1&playlist=-CtD2fIFG-Q"
+                    title="Youtube video"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
               <div className="col-6">
                 <div id="words" className="r-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -101,23 +51,85 @@ function Home() {
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
                 </div>
-                <div id="join-button" className="">
-                  <Link
-                    to={"/about"}
-                    className="membership-btn"
-                    type="button"
-                    role="button"
-                  >
-                    {" "}
-                    Get a Membership
-                  </Link>
-                </div>
-              </div>
-              <div className="col-6">
-                <img src={Family} alt="" className="img-fluid" />
               </div>
             </div>
-          </section>
+            <div id="picture-format" className="d-flex justify-content-center">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1, delay: 0.5 }}
+                viewport={{ once: true }}
+                className="col d-flex justify-content-center"
+              >
+                <img src={Jamison} alt="" className="img-fluid" id="jamison" />
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1, delay: 1.5 }}
+                viewport={{ once: true }}
+                className="col d-flex justify-content-center"
+              >
+                <img src={Thomas} alt="" className="img-fluid" id="thomas" />
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1, delay: 2.5 }}
+                viewport={{ once: true }}
+                className="col d-flex justify-content-center"
+              >
+                <img src={Sage} alt="" className="img-fluid" id="sage" />
+              </motion.div>
+            </div>
+          </motion.div>
+          <motion.div
+            style={{ y: textY }}
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.5 }}
+            viewport={{ once: true }}
+          >
+            <section id="membership">
+              <h1
+                id="champions"
+                className="display-1 d-flex justify-content-center"
+              >
+                Join the Family
+              </h1>
+              <div className="d-flex justify-content-evenly">
+                <div className="col-6">
+                  <div id="words" className="r-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </div>
+                  <div
+                    id="join-button"
+                    className="d-flex justify-content-center"
+                  >
+                    <Link
+                      to={"/about"}
+                      className="membership-btn"
+                      type="button"
+                      role="button"
+                    >
+                      {" "}
+                      <span id="get-membership">Get a Membership</span>
+                    </Link>
+                  </div>
+                </div>
+                <div className="col-6">
+                  <img src={Family} alt="" className="img-fluid" />
+                </div>
+              </div>
+            </section>
+          </motion.div>
           <Footer />
         </section>
       </motion.div>
