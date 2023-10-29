@@ -12,12 +12,14 @@ function Open() {
   const moveHeader = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
   const moveScripture = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
   return (
+    
     <motion.div
       initial={{ y: 900 }}
       whileInView={{ y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
+      <div id="">
       <motion.div style={{ y: moveUp }}>
         <section
           id="open-section"
@@ -40,9 +42,9 @@ function Open() {
             viewport={{ once: true }}
             id="scripture-abbr"
           >
-            Ecc 9:11
+            ECCL 9:11
           </motion.h1>
-          <motion.h1 style={{ y: textY }} id="team-name" className="text-break">
+          <motion.h1 style={{ y: textY }} id="team-name" className="text-break d-flex justify-content-center">
             <motion.span
               initial={{ y: 300 }}
               whileInView={{ y: 0 }}
@@ -142,7 +144,10 @@ function Open() {
           </motion.h1>
         </section>
       </motion.div>
+      </div>
     </motion.div>
+    
+    
   );
 }
 

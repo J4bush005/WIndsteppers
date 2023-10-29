@@ -15,7 +15,7 @@ function header() {
           <Navbar.Brand href="/" className="">
             <img src={Logo} alt="" className=" align-top" />
           </Navbar.Brand>
-          <div className="d-flex ">
+          <div className=" ">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
             <Navbar.Collapse id="basic-navbar-nav">
