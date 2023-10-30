@@ -124,18 +124,26 @@ body {
 
 #build{
   color: rgb(255, 221, 29);
-  margin: 50px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgb(255, 221, 29);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #words {
   font-size: 1.5vw;
   padding-left: 2%;
+  
+}
+
+#group-picture{
+  width: 900px;
 }
 
 #wordss{
   font-size: 1.5vw;
   padding-left: 2%;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #building {
