@@ -6,6 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
+  background-image: url('./Photos/AdobeStock_491385098.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
   height: 100%;
   width: 100%;
 }
@@ -114,14 +122,25 @@ body {
   text-shadow: 2px 2px 4px rgb(255, 221, 29);
 }
 
+#build{
+  color: rgb(255, 221, 29);
+  margin: 50px;
+}
+
 #words {
   font-size: 1.5vw;
   padding-left: 2%;
 }
 
+#wordss{
+  font-size: 1.5vw;
+  padding-left: 2%;
+  color: white;
+}
+
 #building {
   font-family: "Times New Roman", Times, serif;
-  background-image: url('./Photos/AdobeStock_274639062.jpeg');
+  background-image: url('./Photos/AdobeStock_491385098.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -163,5 +182,5 @@ body {
 }
 
 #building-youth{
-  background-color: rgb(255, 221, 29, 0.4);
+  background-color: rgba(143, 24, 255, 0.507);
 }

@@ -7,6 +7,8 @@ import Family from "../../Photos/Opening-Picture.webp";
 import Jamison from "../../Photos/Jamison Medal.webp";
 import Thomas from "../../Photos/Thomas Medal.webp";
 import Sage from "../../Photos/Sage Medal.webp";
+import Children from "../../Photos/CHildren.webp";
+
 import { Link } from "react-router-dom";
 function Home() {
   const ref = useRef(null);
@@ -30,6 +32,9 @@ function Home() {
             >
               Building Champions
             </h1>
+            </motion.div>
+            
+            <motion.div style={{y: textY}}>
             <div className="d-flex justify-content-evenly">
               <div className="col-6">
                 <div className="ratio ratio-21x9">
@@ -53,8 +58,11 @@ function Home() {
                 </div>
               </div>
             </div>
+            </motion.div>
+
             <div id="picture-format" className="d-flex justify-content-center">
               <motion.div
+              style={{y: textY}}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 0.5 }}
@@ -63,7 +71,9 @@ function Home() {
               >
                 <img src={Jamison} alt="" className="img-fluid" id="jamison" />
               </motion.div>
+
               <motion.div
+              style={{y: textY}}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 1.5 }}
@@ -72,7 +82,9 @@ function Home() {
               >
                 <img src={Thomas} alt="" className="img-fluid" id="thomas" />
               </motion.div>
+
               <motion.div
+              style={{y: textY}}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 2.5 }}
@@ -82,25 +94,44 @@ function Home() {
                 <img src={Sage} alt="" className="img-fluid" id="sage" />
               </motion.div>
             </div>
-          </motion.div>
           <motion.div
-            style={{ y: textY }}
-            initial={{ opacity: 0, scale: 0 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 0.5 }}
-            viewport={{ once: true }}
+            style={{y: textY}}
+            initial={{opacity: 0}}
+            whileInView={{opacity: 1}}
+            transition={{duration: 1, delay: 1}}
+            viewport={{once: true}}
           >
             <section id="building-youth">
-              <h1 id="build" className="display-1 d-flex mt-5">
+              <h1 id="build" className="display-1 d-flex">
                 Developing the Youth
               </h1>
               <div className="d-flex justify-content-evenly">
                 <div className="col-6">
-                  
+                  <img src={Children} alt="" className="img-fluid" />
+                </div>
+                <div className="col-6">
+                <div id="wordss" className="r-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </div>
                 </div>
               </div>
             </section>
+            </motion.div>
 
+          <motion.div
+          style={{y: textY}}
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1}}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            viewport={{ once: true }}
+          >
             <section id="membership">
               <h1
                 id="champions"
