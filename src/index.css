@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(237, 237, 235);
+  
   height: 100%;
   width: 100%;
 }
@@ -24,10 +24,19 @@ body {
   text-decoration: none;
 }
 
+.hover{
+  width: 50px;
+  transition: all 0.3s;
+}
+
+.hover:hover {
+  transform: scale(1.15);
+}
+
 .foot-hover{
   text-decoration: none;
   color: rgb(144, 24, 255);
-  font-size: large;
+  font-size: 0.7vw;
   transition: all 0.3s;
 }
 
@@ -112,7 +121,16 @@ body {
 
 #building {
   font-family: "Times New Roman", Times, serif;
-  background-color: rgb(237, 237, 235);
+  background-image: url('./Photos/AdobeStock_274639062.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;
 }
 
 #container {
@@ -142,4 +160,8 @@ body {
 #join-button{
   font-family: 'Times New Roman', Times, serif;
   width: 100%;
+}
+
+#building-youth{
+  background-color: rgb(255, 221, 29, 0.4);
 }

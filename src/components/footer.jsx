@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import IG from "../Photos/ig logo.webp";
+import Face from "../Photos/face.webp";
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
@@ -62,7 +64,7 @@ function Footer() {
             >
               <i class="fab fa-instagram">
                 <img
-                  src=""
+                  src={IG}
                   class="img-fluid hover"
                   onClick={() => window.open(insta, "_blank")}
                   alt=""
@@ -77,7 +79,7 @@ function Footer() {
             >
               <i class="fab fa-facebook-f">
                 <img
-                  src=""
+                  src={Face}
                   class="img-fluid hover"
                   onClick={() => window.open(face, "_blank")}
                   alt=""

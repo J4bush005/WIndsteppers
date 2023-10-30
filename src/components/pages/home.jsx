@@ -90,6 +90,17 @@ function Home() {
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
           >
+            <section id="building-youth">
+              <h1 id="build" className="display-1 d-flex mt-5">
+                Developing the Youth
+              </h1>
+              <div className="d-flex justify-content-evenly">
+                <div className="col-6">
+                  
+                </div>
+              </div>
+            </section>
+
             <section id="membership">
               <h1
                 id="champions"
