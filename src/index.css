@@ -194,12 +194,4 @@ body {
 }
 
 /*Athlete Portal*/
-#picture-widths{
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
-}
 
-#picture-widths-third{
-  height: 900px;
-}
