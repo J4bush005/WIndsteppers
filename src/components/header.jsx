@@ -34,7 +34,7 @@ function header() {
                     Gallery
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#home" className="text-light">
+                <Nav.Link href="/Portal" className="text-light">
                   Athletes
                 </Nav.Link>
                 <Nav.Link href="#home" className="text-light">

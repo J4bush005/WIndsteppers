@@ -60,7 +60,7 @@ body {
 /*HOME PAGE*/
 
 .membership-btn{
-  background-color: rgba(144, 24, 255);
+  background-color: rgb(217, 188, 27);
   color: white;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
@@ -72,7 +72,7 @@ body {
 }
 
 .membership-btn:hover{
-  color: rgb(255, 221, 29);
+  color: rgb(144, 24, 255);
   transform: scale(1.15);
 }
 
@@ -116,8 +116,9 @@ body {
 
 #champions {
   margin-top: 50px;
-  color: rgb(144, 24, 255);
-  text-shadow: 2px 2px 4px rgb(255, 221, 29);
+  color: rgb(217, 188, 27);;
+  text-shadow: 1px 1px 2px rgb(144, 24, 255);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #build{
@@ -130,6 +131,8 @@ body {
 #words {
   font-size: 1.5vw;
   padding-left: 2%;
+  color: rgb(144, 24, 255);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #group-picture{
@@ -188,4 +191,15 @@ body {
 
 #building-youth{
   background-color: rgba(143, 24, 255, 0.507);
+}
+
+/*Athlete Portal*/
+#picture-widths{
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+#picture-widths-third{
+  height: 900px;
 }
