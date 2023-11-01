@@ -24,7 +24,7 @@ function Portal() {
       <div className="row">
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete1} alt="" className="card-img-top"  style={{height:"500px"}} />
+            <img src={Athlete1} alt="" className="card-img-top"  style={{height:"500px", objectFit:"cover"}} />
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -35,7 +35,7 @@ function Portal() {
         </div>
         <div className="col-lg">
           <div className="card" >
-            <img src={Athlete2} alt="" className="card-img-top" style={{height:"500px"}} />
+            <img src={Athlete2} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}} />
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -46,7 +46,7 @@ function Portal() {
         </div>
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete3} alt="" className="card-img-top" style={{height:"500px"}}/>
+            <img src={Athlete3} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -57,53 +57,7 @@ function Portal() {
         </div>
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete4} alt="" className="card-img-top" style={{height:"500px"}}/>
-            <div className="card-body">
-              <h5 className="card-title">Athlete Name</h5>
-              <Link to={"/"} className="btn">
-                View Profile
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg">
-          <div className="card">
-            <img src={Athlete5} alt="" className="card-img-top" style={{height:"500px"}}/>
-            <div className="card-body">
-              <h5 className="card-title">Athlete Name</h5>
-              <Link to={"/"} className="btn">
-                View Profile
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg">
-          <div className="card">
-            <img src={Athlete6} alt="" className="card-img-top" style={{height:"500px"}}/>
-            <div className="card-body">
-              <h5 className="card-title">Athlete Name</h5>
-              <Link to={"/"} className="btn">
-                View Profile
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg">
-          <div className="card">
-            <img src={Athlete7} alt="" className="card-img-top" style={{height:"500px"}}/>
-            <div className="card-body">
-              <h5 className="card-title">Athlete Name</h5>
-              <Link to={"/"} className="btn">
-                View Profile
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg">
-          <div className="card">
-            <img src={Athlete8} alt="" className="card-img-top" style={{height:"500px"}}/>
+            <img src={Athlete4} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -116,7 +70,7 @@ function Portal() {
       <div className="row">
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete9} alt="" className="card-img-top" style={{height:"500px"}}/>
+            <img src={Athlete5} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -127,7 +81,7 @@ function Portal() {
         </div>
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete10} alt="" className="card-img-top" style={{height:"500px"}} />
+            <img src={Athlete6} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -138,7 +92,7 @@ function Portal() {
         </div>
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete11} alt="" className="card-img-top" style={{height:"500px"}}/>
+            <img src={Athlete7} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -149,7 +103,7 @@ function Portal() {
         </div>
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete12} alt="" className="card-img-top" style={{height:"500px"}}/>
+            <img src={Athlete8} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -162,7 +116,7 @@ function Portal() {
       <div className="row">
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete13} alt="" className="card-img-top" style={{height:"500px"}}/>
+            <img src={Athlete9} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -173,7 +127,7 @@ function Portal() {
         </div>
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete14} alt="" className="card-img-top" style={{height:"500px"}}/>
+            <img src={Athlete10} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}} />
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -184,7 +138,7 @@ function Portal() {
         </div>
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete15} alt="" className="card-img-top" style={{height:"500px"}}/>
+            <img src={Athlete11} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
@@ -195,7 +149,53 @@ function Portal() {
         </div>
         <div className="col-lg">
           <div className="card">
-            <img src={Athlete16} alt="" className="card-img-top" style={{height:"500px"}}/>
+            <img src={Athlete12} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
+            <div className="card-body">
+              <h5 className="card-title">Athlete Name</h5>
+              <Link to={"/"} className="btn">
+                View Profile
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg">
+          <div className="card">
+            <img src={Athlete13} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
+            <div className="card-body">
+              <h5 className="card-title">Athlete Name</h5>
+              <Link to={"/"} className="btn">
+                View Profile
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg">
+          <div className="card">
+            <img src={Athlete14} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
+            <div className="card-body">
+              <h5 className="card-title">Athlete Name</h5>
+              <Link to={"/"} className="btn">
+                View Profile
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg">
+          <div className="card">
+            <img src={Athlete15} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
+            <div className="card-body">
+              <h5 className="card-title">Athlete Name</h5>
+              <Link to={"/"} className="btn">
+                View Profile
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg">
+          <div className="card">
+            <img src={Athlete16} alt="" className="card-img-top" style={{height:"500px", objectFit:"cover"}}/>
             <div className="card-body">
               <h5 className="card-title">Athlete Name</h5>
               <Link to={"/"} className="btn">
