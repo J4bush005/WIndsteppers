@@ -11,13 +11,16 @@ import Retro from "../Photos/Retro-1.webp";
 import Retro2 from "../Photos/Retro-2.webp";
 import Retro3 from "../Photos/Retro-3.webp";
 import Retro4 from "../Photos/Retro 4.webp";
+import Retro5 from "../Photos/Retro 5 (1).webp"
+import Retro6 from "../Photos/Retro 6.webp"
+import Retro7 from "../Photos/Retro 7.webp"
 import Final from "../Photos/Opening-Picture.webp";
 
 const HistorySlider = () => {
 
   return (
   <div className="container-fluid">
-    <h1 className="heading">Team History</h1>
+    <div className="d-flex justify-content-center align-items-center">
     <Swiper
     effect={'coverflow'}
     grabCursor={true}
@@ -32,9 +35,9 @@ const HistorySlider = () => {
     coverflowEffect={
         {
             rotate: 0,
-            stretch: 0,
-            depth: 100,
-            modifier: 2.5,
+            stretch: -400,
+            depth: 400,
+            modifier: 0.5,
         }
     }
 
@@ -53,9 +56,19 @@ const HistorySlider = () => {
             <img src={Retro4} alt="" id="test"className="img-fluid"/>
         </SwiperSlide>
         <SwiperSlide>
+            <img src={Retro5} alt="" id="test" className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={Retro6} alt="" id="test" className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={Retro7} alt="" id="test" className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
             <img src={Final} alt="" id="test"className="img-fluid"/>
         </SwiperSlide>
     </Swiper>
+    </div>
   </div>
   );
 };
