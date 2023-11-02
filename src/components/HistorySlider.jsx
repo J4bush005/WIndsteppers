@@ -19,7 +19,7 @@ import Final from "../Photos/Opening-Picture.webp";
 const HistorySlider = () => {
 
   return (
-  <div className="container-fluid">
+  <div id="purp-back" className="container-fluid">
     <div className="d-flex justify-content-center align-items-center">
     <Swiper
     effect={'coverflow'}

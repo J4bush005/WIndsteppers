@@ -7,9 +7,10 @@ const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const mine = "https://www.forbushtech.com/";
 const church = "https://smbctgm.org/";
+
 function Footer() {
     return (
-      <div id='foot' class="container my-5 foot">
+      <div id='foot' class="container foot">
       <footer class="text-center">
         <div class="container">
           <section class="mt-5">

@@ -2,15 +2,14 @@ import React from "react";
 import Header from "../header";
 import HistorySlider from "../HistorySlider";
 import HistoryContent from "../HistoryContent";
-import Footer from "../footer";
+
 
 function History() {
   return (
-    <div>
+    <div id="purp-back">
       <Header />
       <HistorySlider/>
       <HistoryContent/>
-      <Footer/>
     </div>
   );
 }
