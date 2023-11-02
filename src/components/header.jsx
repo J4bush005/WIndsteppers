@@ -24,7 +24,7 @@ function header() {
                   title={<span className="text-light">About Us</span>}
                   id="basic-nav-dropdown"
                 >
-                  <NavDropdown.Item href="/about">
+                  <NavDropdown.Item href="/History">
                     Our History
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">

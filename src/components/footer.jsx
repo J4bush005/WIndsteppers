@@ -6,7 +6,7 @@ import Face from "../Photos/face.webp";
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const mine = "https://www.forbushtech.com/";
-
+const church = "https://smbctgm.org/";
 function Footer() {
     return (
       <div id='foot' class="container my-5 foot">
@@ -46,7 +46,7 @@ function Footer() {
               </div>
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <Link to="/Contact" class="foot-hover">
+                  <Link onClick={() => window.open(church, "_blank")} class="foot-hover">
                     SMBC Baptist Church
                   </Link>
                 </h6>
