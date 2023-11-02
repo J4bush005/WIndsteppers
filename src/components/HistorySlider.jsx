@@ -5,25 +5,30 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 
-import Test from "../Photos/Opening-Picture.webp";
-import Test3 from "../Photos/CHildren.webp";
-import Test2 from "../Photos/Jamison Medal.webp";
-import Test4 from "../Photos/Sage Medal.webp";
-import Test5 from "../Photos/Thomas Medal.webp";
+import Retro from "../Photos/Retro-1.webp";
+import Retro2 from "../Photos/Retro-2.webp";
+import Retro3 from "../Photos/Retro-3.webp";
+import Retro4 from "../Photos/Retro 4.webp";
+import Final from "../Photos/Opening-Picture.webp";
 
 const HistorySlider = () => {
 
   return (
-  <div className="container">
+  <div className="container-fluid">
     <h1 className="heading">Team History</h1>
     <Swiper
     effect={'coverflow'}
     grabCursor={true}
+    slideShadow={false}
     centeredSlides={true}
     loop={true}
-    slidesPerView={'2'}
+    slidesPerView={'3'}
+    autoplay={{
+        delay: 5000,
+
+    }}
     coverflowEffect={
         {
             rotate: 0,
@@ -32,36 +37,24 @@ const HistorySlider = () => {
             modifier: 2.5,
         }
     }
-    pagination={{el:'swiper-pagination',clickable:true}}
-    navigation={{
-        nextEl:'swiper-button-next',
-        prevEl:'swiper-button-prev',
-        clickable: true
-    }}
-    modules={[EffectCoverflow, Pagination, Navigation]}
+
+    modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
     className="swiper_container">
         <SwiperSlide>
-            <img src={Test} alt="" id="test" className="img-fluid"/>
+            <img src={Retro} alt="" id="test" className="img-fluid"/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={Test2} alt="" id="test"className="img-fluid"/>
+            <img src={Retro2} alt="" id="test"className="img-fluid"/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={Test3} alt="" id="test"className="img-fluid"/>
+            <img src={Retro3} alt="" id="test"className="img-fluid"/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={Test4} alt="" id="test"className="img-fluid"/>
+            <img src={Retro4} alt="" id="test"className="img-fluid"/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={Test5} alt="" id="test"className="img-fluid"/>
+            <img src={Final} alt="" id="test"className="img-fluid"/>
         </SwiperSlide>
-
-        <div className="slider-controller">
-            <div className="swiper-button-prev slider-arrow"></div>
-            <div className="swiper-button-next slider-arrow"></div>
-            <div className="swiper-pagination"></div>
-        </div>
-
     </Swiper>
   </div>
   );

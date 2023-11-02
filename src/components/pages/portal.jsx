@@ -1,5 +1,5 @@
 import React from "react";
-
+import Header from "../header"
 import Athlete1 from "../../Athletes/Athlete 1.webp";
 import Athlete2 from "../../Athletes/Athlete 2.webp";
 import Athlete3 from "../../Athletes/Athlete 3.5.webp";
@@ -20,6 +20,8 @@ import { Link } from "react-router-dom";
 
 function Portal() {
   return (
+    <>
+    <Header/>
     <div className="container">
       <div className="row">
         <div className="col-lg">
@@ -206,6 +208,7 @@ function Portal() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
