@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./Photos/AdobeStock_491385098.jpeg');
+  background-image: url('./Photos/AdobeStock_449117631.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -48,7 +48,7 @@ body {
 }
 
 #designed{
-  color: black;
+  color: rgb(144, 24, 255);
 }
 
 .foot-hover:hover{
@@ -148,7 +148,7 @@ body {
 
 #building {
   font-family: "Times New Roman", Times, serif;
-  background-image: url('./Photos/AdobeStock_491385098.jpeg');
+  background-image: url('./Photos/AdobeStock_449117631.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -213,7 +213,7 @@ body {
 
 
 #purp-back{
-  background-image: url('./Photos/AdobeStock_539641393.jpeg');
+  background-image: url('./Photos/AdobeStock_449117631.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

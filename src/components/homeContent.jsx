@@ -17,8 +17,8 @@ function HomeContent() {
     });
     const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-5%"]);
   return (
-    <>
-    <section id="building" className="">
+    <div id="building">
+    <section id="" className="">
           <motion.div style={{ y: textY }}>
             <h1
               id="champions"
@@ -165,7 +165,7 @@ function HomeContent() {
           </section>
           <Footer />
         </motion.div>
-        </>
+        </div>
   )
 }
 

@@ -10,7 +10,7 @@ const church = "https://smbctgm.org/";
 
 function Footer() {
     return (
-      <div id='foot' class="container foot">
+      <div id='foot' class="container mt-5 foot">
       <footer class="text-center">
         <div class="container">
           <section class="mt-5">
