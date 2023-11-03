@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../header"
 import Athlete1 from "../../Athletes/Athlete 1.webp";
 import Athlete2 from "../../Athletes/Athlete 2.webp";
@@ -18,10 +18,48 @@ import Athlete15 from "../../Athletes/Athlete 15.webp";
 import Athlete16 from "../../Athletes/Athlete 16.webp";
 import { Link } from "react-router-dom";
 
+
 function Portal() {
+  const sprints = useRef(null);
+  const jumps = useRef(null);
+  const throws = useRef(null);
+  const distance = useRef(null);
+  const racewalk = useRef(null);
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
     <Header/>
+    <div id="shift" className="col">
+    <div id="" className="second-word">
+      <ul className="options">
+        <li className="listed-one">
+          <Link onClick={() => scrollToSection(sprints)} className="sections">Sprints</Link>
+        </li>
+        <li className="listed-two">|</li>
+        <li className="listed-three">
+          <Link to={"/LVT"} className="sections">Jumps</Link>
+        </li>
+        <li className="listed-four">|</li>
+        <li className="listed-five">
+          <Link to={"/Commercial"} className="sections">Throws</Link>
+        </li>
+        <li className="listed-six">|</li>
+        <li className="listed-seven">
+          <Link to={"/Custom"} className="sections">Distance</Link>
+        </li>
+        <li className="listed-eight">|</li>
+        <li className="listed-nine">
+          <Link to={"/Stairs"} className="sections">Racewalk</Link>
+        </li>
+      </ul>
+    </div>
+  </div>
     <div className="container">
       <div className="row">
         <div className="col-lg">
