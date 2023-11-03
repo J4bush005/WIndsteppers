@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./footer";
+import HistorySlider from "./HistorySlider";
 
 function HistoryContent() {
   return (
@@ -9,7 +10,7 @@ function HistoryContent() {
         <h1 id="champions" className="display-1 justify-content-center d-flex">
           Our History
         </h1>
-        <div className="row d-flex justify-content-center mt-5">
+        <div className="row d-flex justify-content-center mb-5">
           <div id="words" className="col-lg d-flex justify-content-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -21,6 +22,7 @@ function HistoryContent() {
           </div>
         </div>
       </div>
+      <HistorySlider/>
       <div className="row d-flex justify-contnet-evenly mt-5">
         <div className="col-lg">
           <h1 id="championss" className="display-1">

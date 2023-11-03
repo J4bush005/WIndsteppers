@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Link } from "react-router-dom";
 import Footer from "./footer";
 
-import Family from "../Photos/Opening-Picture.webp";
+import Family from "../Photos/Replace.webp";
 import Jamison from "../Photos/Jamison Medal.webp";
 import Thomas from "../Photos/Thomas Medal.webp";
 import Sage from "../Photos/Sage Medal.webp";
@@ -161,7 +161,6 @@ function HomeContent() {
                 <img src={Family} alt="" className="img-fluid" />
               </div>
             </div>
-           
           </section>
           <Footer />
         </motion.div>

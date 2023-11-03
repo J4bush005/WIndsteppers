@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Content from "../homeContent";
 
 
+
 function Home() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({

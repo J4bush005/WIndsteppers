@@ -9,7 +9,6 @@ function History() {
   return (
     <div id="purp-back">
       <Header />
-      <HistorySlider/>
       <HistoryContent/>
       <Footer/>
     </div>
