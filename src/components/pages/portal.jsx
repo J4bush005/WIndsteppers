@@ -43,19 +43,19 @@ function Portal() {
         </li>
         <li className="listed-two">|</li>
         <li className="listed-three">
-          <Link to={"/LVT"} className="sections">Jumps</Link>
+          <Link onClick={() => scrollToSection(jumps)} className="sections">Jumps</Link>
         </li>
         <li className="listed-four">|</li>
         <li className="listed-five">
-          <Link to={"/Commercial"} className="sections">Throws</Link>
+          <Link onClick={() => scrollToSection(throws)} className="sections">Throws</Link>
         </li>
         <li className="listed-six">|</li>
         <li className="listed-seven">
-          <Link to={"/Custom"} className="sections">Distance</Link>
+          <Link onClick={() => scrollToSection(distance)} className="sections">Distance</Link>
         </li>
         <li className="listed-eight">|</li>
         <li className="listed-nine">
-          <Link to={"/Stairs"} className="sections">Racewalk</Link>
+          <Link onClick={() => scrollToSection(racewalk)} className="sections">Racewalk</Link>
         </li>
       </ul>
     </div>
