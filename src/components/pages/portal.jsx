@@ -4,6 +4,7 @@ import Header from "../header"
 import Footer from "../footer";
 import MenList from "../MenList";
 import PortalSlider from "../PortalSlider";
+import WomenList from "../WomenList";
 
 
 
@@ -14,6 +15,7 @@ function Portal() {
     <Header/>
     <PortalSlider/>
     <MenList/>
+    <WomenList/>
     <Footer/>
     </>
   );
