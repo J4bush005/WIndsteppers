@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
-  height: 100%;
+  height: 100vh;
   width: 100%;
 }
 
@@ -328,4 +328,51 @@ body {
 
 #shift{
   padding-left: 0;
+}
+
+
+
+#distance{
+  margin: 0 0 0 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('./Photos/Opening-Picture.webp');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  z-index: -10;
+  color: rgb(255, 221, 29);
+  text-shadow: 2px 2px 4px rgb(144, 24, 255);
+  font-family: 'Times New Roman', Times, serif;
+  transition: 5s;
+
+  animation: animate;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes animate{
+  0%{
+    background-image: url("./Photos/Jump\ Squad.webp");
+  }
+  25%{
+    background-image: url("./Photos/Throw\ Squad.webp");
+  }
+  50%{
+    background-image: url("./Photos/Distance.webp");
+  }
+  75%{
+    background-image: url("./Photos/Racewalk.webp");
+  }
+  100%{
+    background-image: url("./Photos/Opening-Picture.webp");
+  }
 }
