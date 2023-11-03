@@ -22,7 +22,7 @@ function WomenList() {
                 src={Athlete3}
                 alt=""
                 className="card-img-top"
-                style={{ height: "500px", objectFit: "cover" }}
+                style={{ height: "800px", objectFit: "cover" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>
@@ -38,7 +38,7 @@ function WomenList() {
                 src={Athlete4}
                 alt=""
                 className="card-img-top"
-                style={{ height: "500px", objectFit: "cover" }}
+                style={{ height: "800px", objectFit: "cover" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>
@@ -54,7 +54,7 @@ function WomenList() {
                 src={Athlete6}
                 alt=""
                 className="card-img-top"
-                style={{ height: "500px", objectFit: "cover" }}
+                style={{ height: "800px", objectFit: "cover" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>
@@ -70,7 +70,7 @@ function WomenList() {
                 src={Athlete11}
                 alt=""
                 className="card-img-top"
-                style={{ height: "500px", objectFit: "cover" }}
+                style={{ height: "800px", objectFit: "cover" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>
@@ -86,7 +86,7 @@ function WomenList() {
                 src={Athlete16}
                 alt=""
                 className="card-img-top"
-                style={{ height: "500px", objectFit: "cover" }}
+                style={{ height: "800px", objectFit: "cover" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>

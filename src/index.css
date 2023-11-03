@@ -344,7 +344,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 85vh;
+  height: 100vh;
   z-index: -10;
   color: rgb(255, 221, 29);
   text-shadow: 2px 2px 4px rgb(144, 24, 255);
