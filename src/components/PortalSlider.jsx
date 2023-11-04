@@ -1,7 +1,10 @@
 import React from 'react'
+import Header from './header'
 
 function PortalSlider() {
   return (
+    <>
+    <Header/>
     <section id="distance" className="page-section call-to-action d-flex" >
     <div className="py-lg-5">
       <div className="col-lg-12 col-md-8 mx-auto">
@@ -9,6 +12,7 @@ function PortalSlider() {
       </div>
     </div>
   </section>
+  </>
   )
 }
 

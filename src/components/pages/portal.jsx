@@ -12,7 +12,6 @@ function Portal() {
 
   return (
     <>
-    <Header/>
     <PortalSlider/>
     <MenList/>
     <WomenList/>

@@ -309,6 +309,17 @@ body {
   padding-right: 2px;
 
 }
+
+.card{
+  border: none;
+  border-color: none;
+}
+
+.card:hover{
+  border: none;
+  border-color: none;
+}
+
 .listed-nine{
   display: inline-block;
   transition: 0.3s;
@@ -336,6 +347,48 @@ body {
   text-shadow: 1px 1px 2px rgb(144, 24, 255);
   font-family: 'Times New Roman', Times, serif;
   padding-left: 1%;
+}
+
+.image{
+  position: relative;
+}
+
+.content{
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: linear-gradient(to bottom, rgb(144,24,255), gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.content:hover{
+  opacity: 1;
+}
+
+#personal-stats{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+#personal-stats-silver{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#personal-stats-bronze{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#events{
+  color: rgb(217, 188, 27);
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px 2px rgba(187, 154, 33, 0.7);
 }
 
 #distance{

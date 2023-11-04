@@ -18,81 +18,501 @@ function WomenList() {
         <div className="row d-flex justify-content-evenly">
           <div className="col-lg-2">
             <div className="card">
-              <img
-                src={Athlete3}
-                alt=""
-                className="card-img-top"
-                style={{ height: "800px", objectFit: "cover" }}
-              />
+              <div className="wrapper">
+                <div className="image">
+                  <img
+                    id="athlete-pic"
+                    src={Athlete3}
+                    alt=""
+                    className="card-img-top"
+                    style={{ height: "800px", objectFit: "cover" }}
+                  />
+                  <div className="content">
+                    <div id="athlete-stats">
+                      <div className="row">
+                        <h1
+                          className="display-1 d-flex justify-content-center"
+                          id="championsss"
+                        >
+                          Stats:
+                        </h1>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 1
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 2
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 3
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>
-                <Link to={"/"} className="btn">
-                  View Profile
-                </Link>
+                <span>Events:</span>
               </div>
             </div>
           </div>
           <div className="col-lg-2">
             <div className="card">
-              <img
-                src={Athlete4}
-                alt=""
-                className="card-img-top"
-                style={{ height: "800px", objectFit: "cover" }}
-              />
+              <div className="wrapper">
+                <div className="image">
+                  <img
+                    id="athlete-pic"
+                    src={Athlete4}
+                    alt=""
+                    className="card-img-top"
+                    style={{ height: "800px", objectFit: "cover" }}
+                  />
+                  <div className="content">
+                    <div id="athlete-stats">
+                      <div className="row">
+                        <h1
+                          className="display-1 d-flex justify-content-center"
+                          id="championsss"
+                        >
+                          Stats:
+                        </h1>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 1
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 2
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 3
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>
-                <Link to={"/"} className="btn">
-                  View Profile
-                </Link>
+                <span>Events:</span>
               </div>
             </div>
           </div>
           <div className="col-lg-2">
             <div className="card">
-              <img
-                src={Athlete6}
-                alt=""
-                className="card-img-top"
-                style={{ height: "800px", objectFit: "cover" }}
-              />
+              <div className="wrapper">
+                <div className="image">
+                  <img
+                    id="athlete-pic"
+                    src={Athlete6}
+                    alt=""
+                    className="card-img-top"
+                    style={{ height: "800px", objectFit: "cover" }}
+                  />
+                  <div className="content">
+                    <div id="athlete-stats">
+                      <div className="row">
+                        <h1
+                          className="display-1 d-flex justify-content-center"
+                          id="championsss"
+                        >
+                          Stats:
+                        </h1>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 1
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 2
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 3
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>
-                <Link to={"/"} className="btn">
-                  View Profile
-                </Link>
+                <span>Events:</span>
               </div>
             </div>
           </div>
           <div className="col-lg-2">
             <div className="card">
-              <img
-                src={Athlete11}
-                alt=""
-                className="card-img-top"
-                style={{ height: "800px", objectFit: "cover" }}
-              />
+              <div className="wrapper">
+                <div className="image">
+                  <img
+                    id="athlete-pic"
+                    src={Athlete11}
+                    alt=""
+                    className="card-img-top"
+                    style={{ height: "800px", objectFit: "cover" }}
+                  />
+                  <div className="content">
+                    <div id="athlete-stats">
+                      <div className="row">
+                        <h1
+                          className="display-1 d-flex justify-content-center"
+                          id="championsss"
+                        >
+                          Stats:
+                        </h1>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 1
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 2
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 3
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>
-                <Link to={"/"} className="btn">
-                  View Profile
-                </Link>
+                <span>Events:</span>
               </div>
             </div>
           </div>
           <div className="col-lg-2">
             <div className="card">
-              <img
-                src={Athlete16}
-                alt=""
-                className="card-img-top"
-                style={{ height: "800px", objectFit: "cover" }}
-              />
+              <div className="wrapper">
+                <div className="image">
+                  <img
+                    id="athlete-pic"
+                    src={Athlete16}
+                    alt=""
+                    className="card-img-top"
+                    style={{ height: "800px", objectFit: "cover" }}
+                  />
+                  <div className="content">
+                    <div id="athlete-stats">
+                      <div className="row">
+                        <h1
+                          className="display-1 d-flex justify-content-center"
+                          id="championsss"
+                        >
+                          Stats:
+                        </h1>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 1
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 2
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                      <div className="row">
+                        <h3 id="events" className="display-5">
+                          Event 3
+                        </h3>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Personal Best:
+                        </div>
+                        <div id="personal-stats" className="col-12 display-6">
+                          Golds:
+                        </div>
+                        <div
+                          id="personal-stats-silver"
+                          className="col-12 display-6"
+                        >
+                          Silvers:
+                        </div>
+                        <div
+                          id="personal-stats-bronze"
+                          className="col-12 display-6"
+                        >
+                          Bronzes:
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="card-body">
                 <h5 className="card-title">Athlete Name</h5>
-                <Link to={"/"} className="btn">
-                  View Profile
-                </Link>
+                <span>Events:</span>
               </div>
             </div>
           </div>
