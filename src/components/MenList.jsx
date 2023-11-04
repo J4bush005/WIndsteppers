@@ -21,7 +21,7 @@ function MenList() {
     <section id="sprinter-pics" className="mt-5">
     <div className="container-fluid">
         <div className="row">
-            <h1 className="display-1" id="champions">Mens Roster:</h1>
+            <h1 className="display-1" id="championsss">Mens Roster:</h1>
         </div>
       <div className="row d-flex justify-content-evenly">
         <div className="col-lg-2">

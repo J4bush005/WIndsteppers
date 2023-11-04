@@ -330,7 +330,13 @@ body {
   padding-left: 0;
 }
 
-
+#championsss {
+  margin-top: 50px;
+  color: rgb(217, 188, 27);;
+  text-shadow: 1px 1px 2px rgb(144, 24, 255);
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 1%;
+}
 
 #distance{
   margin: 0 0 0 0;
