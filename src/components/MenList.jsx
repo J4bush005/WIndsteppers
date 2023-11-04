@@ -30,7 +30,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -71,7 +71,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -112,7 +112,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -153,7 +153,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -194,7 +194,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -237,7 +237,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -278,7 +278,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -319,7 +319,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -360,7 +360,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -401,7 +401,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>
@@ -444,7 +444,7 @@ function MenList() {
               <div className="content">
               <div id="athlete-stats">
               <div className="row">
-              <h1 className="display-1 d-flex justify-content-center" id="championsss">Stats:</h1>
+              <h1 className="display-1 d-flex justify-content-center" id="stats">Stats:</h1>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 1</h3>

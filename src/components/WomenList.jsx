@@ -32,7 +32,7 @@ function WomenList() {
                       <div className="row">
                         <h1
                           className="display-1 d-flex justify-content-center"
-                          id="championsss"
+                          id="stats"
                         >
                           Stats:
                         </h1>
@@ -132,7 +132,7 @@ function WomenList() {
                       <div className="row">
                         <h1
                           className="display-1 d-flex justify-content-center"
-                          id="championsss"
+                          id="stats"
                         >
                           Stats:
                         </h1>
@@ -232,7 +232,7 @@ function WomenList() {
                       <div className="row">
                         <h1
                           className="display-1 d-flex justify-content-center"
-                          id="championsss"
+                          id="stats"
                         >
                           Stats:
                         </h1>
@@ -332,7 +332,7 @@ function WomenList() {
                       <div className="row">
                         <h1
                           className="display-1 d-flex justify-content-center"
-                          id="championsss"
+                          id="stats"
                         >
                           Stats:
                         </h1>
@@ -432,7 +432,7 @@ function WomenList() {
                       <div className="row">
                         <h1
                           className="display-1 d-flex justify-content-center"
-                          id="championsss"
+                          id="stats"
                         >
                           Stats:
                         </h1>

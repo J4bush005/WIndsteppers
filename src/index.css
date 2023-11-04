@@ -337,6 +337,7 @@ body {
   text-decoration: none;
 }
 
+
 #shift{
   padding-left: 0;
 }
@@ -347,6 +348,13 @@ body {
   text-shadow: 1px 1px 2px rgb(144, 24, 255);
   font-family: 'Times New Roman', Times, serif;
   padding-left: 1%;
+}
+
+#stats{
+  margin-top:10px;
+  color: rgb(217, 188, 27);
+  text-shadow: 1px 1px 2px rgb(144, 24, 255);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .image{
@@ -364,6 +372,7 @@ body {
   flex-direction: column;
   opacity: 0;
   transition: 0.6s;
+  border-radius: 1%;
 }
 
 .content:hover{
