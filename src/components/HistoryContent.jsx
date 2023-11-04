@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./footer";
 import HistorySlider from "./HistorySlider";
 
 function HistoryContent() {

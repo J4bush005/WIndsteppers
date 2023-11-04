@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Athlete3 from "../Athletes/Athlete 3.5.webp";
 import Athlete4 from "../Athletes/Athlete 4.webp";
 import Athlete6 from "../Athletes/Athlete 6.webp";

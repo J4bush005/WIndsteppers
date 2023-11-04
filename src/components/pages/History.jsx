@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../header";
-import HistorySlider from "../HistorySlider";
 import HistoryContent from "../HistoryContent";
 import Footer from "../footer";
 
