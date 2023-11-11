@@ -16,14 +16,14 @@ import Athlete15 from "../../../Athletes/Athlete 15.webp";
 
 function MenList() {
   return (
-    <section id="sprinter-pics" className="mt-3">
+    <section className="mt-3">
     <div className="container-fluid">
         <div className="row">
             <h1 className="display-1" id="championsss">Mens Roster:</h1>
         </div>
       <div className="row d-flex justify-content-evenly">
         <div className="col-lg-2">
-          <div id="card" className="card">
+          <div className="card">
             <div className="wrapper">
               <div className="image">
               <img id="athlete-pic" src={Athlete1} alt="" className="card-img-top"  style={{height:"800px", objectFit:"cover"}}/>
