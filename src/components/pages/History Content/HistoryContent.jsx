@@ -5,7 +5,7 @@ function HistoryContent() {
   return (
     <>
     <div id="purp-back" className="container-fluid">
-      <div id="color-change">
+      <div>
         <h1 id="champions" className="display-1 justify-content-center d-flex">
           Our History
         </h1>

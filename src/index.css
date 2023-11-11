@@ -58,34 +58,12 @@ body {
 }
 
 /*History Page*/
-#test{
- width: 900px;
- height: 600px;
- object-fit: cover;
-}
+
 
 /*I don't like how close the headers are to the edge of the page so I'm going to alter the padding*/
-#championss{
-  margin-top: 50px;
-  padding-left: 2%;
-  color: rgb(217, 188, 27);;
-  text-shadow: 1px 1px 2px rgb(144, 24, 255);
-  font-family: 'Times New Roman', Times, serif;
-}
 
-#purp-back{
-  background-image: url('./Photos/AdobeStock_449117631.jpeg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom;
-  height: 100%;
-  width: 100%;
-  color: white;
-}
+
+
 
 /*Portal Page*/
 .second-word{

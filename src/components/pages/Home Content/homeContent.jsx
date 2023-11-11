@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Footer from "../../footer";
-import "./Home.css"
 import Family from "../../../Photos/Replace.webp";
 import Jamison from "../../../Photos/Jamison Medal.webp";
 import Thomas from "../../../Photos/Thomas Medal.webp";
