@@ -1,9 +1,9 @@
 import React from "react";
-import Athlete3 from "../Athletes/Athlete 3.5.webp";
-import Athlete4 from "../Athletes/Athlete 4.webp";
-import Athlete6 from "../Athletes/Athlete 6.webp";
-import Athlete11 from "../Athletes/Athlete 11.5.webp";
-import Athlete16 from "../Athletes/Athlete 16.webp";
+import Athlete3 from "../../../Athletes/Athlete 3.5.webp";
+import Athlete4 from "../../../Athletes/Athlete 4.webp";
+import Athlete6 from "../../../Athletes/Athlete 6.webp";
+import Athlete11 from "../../../Athletes/Athlete 11.5.webp";
+import Athlete16 from "../../../Athletes/Athlete 16.webp";
 
 function WomenList() {
   return (

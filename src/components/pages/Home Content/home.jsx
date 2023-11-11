@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import Open from "../open-image";
+import Open from "./open-image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Content from "../homeContent";
+import Content from "./homeContent";
 
 
 

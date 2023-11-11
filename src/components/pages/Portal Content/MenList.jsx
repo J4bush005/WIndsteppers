@@ -1,18 +1,18 @@
 import React from 'react'
-import Athlete1 from "../Athletes/Athlete 1.webp";
-import Athlete2 from "../Athletes/Athlete 2.webp";
+import Athlete1 from "../../../Athletes/Athlete 1.webp";
+import Athlete2 from "../../../Athletes/Athlete 2.webp";
 
-import Athlete5 from "../Athletes/Athlete 5.webp";
+import Athlete5 from "../../../Athletes/Athlete 5.webp";
 
-import Athlete7 from "../Athletes/Athlete 7.webp";
-import Athlete8 from "../Athletes/Athlete 8.webp";
-import Athlete9 from "../Athletes/Athlete 9.webp";
-import Athlete10 from "../Athletes/Athlete 10.webp";
+import Athlete7 from "../../../Athletes/Athlete 7.webp";
+import Athlete8 from "../../../Athletes/Athlete 8.webp";
+import Athlete9 from "../../../Athletes/Athlete 9.webp";
+import Athlete10 from "../../../Athletes/Athlete 10.webp";
 
-import Athlete12 from "../Athletes/Athlete 12.webp";
-import Athlete13 from "../Athletes/Athlete 13.webp";
-import Athlete14 from "../Athletes/Athlete 14.webp";
-import Athlete15 from "../Athletes/Athlete 15.webp";
+import Athlete12 from "../../../Athletes/Athlete 12.webp";
+import Athlete13 from "../../../Athletes/Athlete 13.webp";
+import Athlete14 from "../../../Athletes/Athlete 14.webp";
+import Athlete15 from "../../../Athletes/Athlete 15.webp";
 
 function MenList() {
   return (

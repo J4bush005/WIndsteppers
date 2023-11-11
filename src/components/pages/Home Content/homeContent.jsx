@@ -1,12 +1,12 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Footer from "./footer";
-
-import Family from "../Photos/Replace.webp";
-import Jamison from "../Photos/Jamison Medal.webp";
-import Thomas from "../Photos/Thomas Medal.webp";
-import Sage from "../Photos/Sage Medal.webp";
-import Children from "../Photos/CHildren.webp";
+import Footer from "../../footer";
+import "./Home.css"
+import Family from "../../../Photos/Replace.webp";
+import Jamison from "../../../Photos/Jamison Medal.webp";
+import Thomas from "../../../Photos/Thomas Medal.webp";
+import Sage from "../../../Photos/Sage Medal.webp";
+import Children from "../../../Photos/CHildren.webp";
 
 function HomeContent() {
     const ref = useRef(null);
@@ -17,7 +17,7 @@ function HomeContent() {
     const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-5%"]);
   return (
     <div id="building">
-    <section id="" className="">
+    <section>
           <motion.div style={{ y: textY }}>
             <h1
               id="champions"

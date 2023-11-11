@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Header from ".//header";
+import Header from "../../header";
 import { motion, useScroll, useTransform } from "framer-motion";
 function Open() {
   const ref = useRef(null);

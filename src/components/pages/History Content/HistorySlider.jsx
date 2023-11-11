@@ -7,14 +7,14 @@ import "swiper/css/navigation";
 
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 
-import Retro from "../Photos/Retro-1.webp";
-import Retro2 from "../Photos/Retro-2.webp";
-import Retro3 from "../Photos/Retro-3.webp";
-import Retro4 from "../Photos/Retro 4.webp";
-import Retro5 from "../Photos/Retro 5 (1).webp"
-import Retro6 from "../Photos/Retro 6.webp"
-import Retro7 from "../Photos/Retro 7.webp"
-import Final from "../Photos/Opening-Picture.webp";
+import Retro from "../../../Photos/Retro-1.webp";
+import Retro2 from "../../../Photos/Retro-2.webp";
+import Retro3 from "../../../Photos/Retro-3.webp";
+import Retro4 from "../../../Photos/Retro 4.webp";
+import Retro5 from "../../../Photos/Retro 5 (1).webp"
+import Retro6 from "../../../Photos/Retro 6.webp"
+import Retro7 from "../../../Photos/Retro 7.webp"
+import Final from "../../../Photos/Opening-Picture.webp";
 
 const HistorySlider = () => {
 

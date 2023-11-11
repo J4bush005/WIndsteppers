@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../header";
-import HistoryContent from "../HistoryContent";
-import Footer from "../footer";
+import Header from "../../header";
+import HistoryContent from "./HistoryContent";
+import Footer from "../../footer";
 
 
 function History() {

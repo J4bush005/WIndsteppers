@@ -1,5 +1,5 @@
 import React from "react";
-import Shoes from "../Photos/Shoes.png";
+import Shoes from "../../../Photos/Shoes.png";
 
 function FeaturedProducts() {
   return (
