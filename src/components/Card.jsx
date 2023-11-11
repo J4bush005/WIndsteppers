@@ -1,23 +1,26 @@
-import React from 'react'
+import React from "react";
 
-const Card = ({item}) => {
+const Card = ({ item }) => {
   return (
-    <div className='container-fluid'>
-    <div className='row d-flex'>
-        <div className="col">
-            <img src={item.img} alt="" className='img-fluid' style={{width:"100px"}}/>
-        </div>
-    </div>
-    <div className="">
-            <div className="">
-                <h2>{item.title}</h2>
-                <div className="">
-                    <h3>${item.price}</h3>
-                </div>
+    <div className="container-fluid">
+      <div className="row d-flex">
+        <div className="col d-flex justify-content-center">
+          <div className="card">
+            <img
+              src={item.img}
+              alt=""
+              className="img-fluid"
+              style={{ width: "300px" }}
+            />
+            <div className="card-body">
+            <h2 className="card-title">{item.title}</h2>
+            <h3>${item.price}</h3>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
