@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import IG from "../Photos/ig logo.webp";
 import Face from "../Photos/face.webp";
 
 const insta = "https://www.instagram.com/hardwoodboss_/";
 const face = "https://www.facebook.com/profile.php?id=100001292195808";
 const mine = "https://www.forbushtech.com/";
-const church = "https://smbctgm.org/";
 
 function Footer() {
     return (
@@ -17,39 +15,39 @@ function Footer() {
             <div class="row text-center d-flex justify-content-center">
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <Link to="/Estimate" class="foot-hover">
+                  <a href="/Store" class="foot-hover">
                     Buy Gear
-                  </Link>
+                  </a>
                 </h6>
               </div>
   
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <Link to="/Services" class="foot-hover">
-                    Contact Us
-                  </Link>
+                <a href="/Portal" class="foot-hover">
+                    Athletes
+                  </a>
                 </h6>
               </div>
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <Link to="/Portal" class="foot-hover">
-                    Athlete Portal
-                  </Link>
+                <a href="/About" class="foot-hover">
+                    Events
+                  </a>
                 </h6>
               </div>
   
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <Link to="/About" class="foot-hover">
-                    Buy a Membership
-                  </Link>
+                <a href="/Estimate" class="foot-hover">
+                    Join the Family
+                  </a>
                 </h6>
               </div>
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <Link onClick={() => window.open(church, "_blank")} class="foot-hover">
+                  <a href='https://smbctgm.org/' target='page' class="foot-hover">
                     SMBC Baptist Church
-                  </Link>
+                  </a>
                 </h6>
               </div>
             </div>
@@ -57,8 +55,8 @@ function Footer() {
   
           <hr class="my-5" />
           <section class="mb-4 move">
-            <Link
-              to="/"
+            <a
+              href="/"
               class="btn btn-floating m1"
               role="button"
               aria-expanded="false"
@@ -71,9 +69,9 @@ function Footer() {
                   alt=""
                 />
               </i>
-            </Link>
-            <Link
-              to="/"
+            </a>
+            <a
+              href="/"
               class="btn btn-floating m1"
               role="button"
               aria-expanded="false"
@@ -86,25 +84,25 @@ function Footer() {
                   alt=""
                 />
               </i>
-            </Link>
-            <Link
-              to="/"
+            </a>
+            <a
+              href="/"
               class="btn btn-floating m1"
               role="button"
               aria-expanded="false"
             >
-            </Link>
+            </a>
           </section>
         </div>
         <div id="designed" class="text-center p-3">
           Designed by:
-          <Link
-            to="/"
+          <a
+            href="/"
             class="foot-hover space"
             onClick={() => window.open(mine, "_blank")}
           >
             Forbush Technologies LLC{" "}
-          </Link>
+          </a>
         </div>
       </footer>
     </div>

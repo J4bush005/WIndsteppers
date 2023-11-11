@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Link } from "react-router-dom";
 import Footer from "./footer";
 
 import Family from "../Photos/Replace.webp";
@@ -146,15 +145,15 @@ function HomeContent() {
                   mollit anim id est laborum.
                 </div>
                 <div id="join-button" className="d-flex justify-content-center">
-                  <Link
-                    to={"/about"}
+                  <a
+                    href="/about"
                     className="membership-btn"
                     type="button"
                     role="button"
                   >
                     {" "}
                     <span id="get-membership">Get a Membership</span>
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className="col-6">

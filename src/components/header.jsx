@@ -40,7 +40,7 @@ function header() {
                 <Nav.Link href="#home" className="text-light">
                   Events/Calendar
                 </Nav.Link>
-                <Nav.Link href="#home" className="text-light">
+                <Nav.Link href="/Store" className="text-light">
                   Store
                 </Nav.Link>
                 <Nav.Link href="#home">
