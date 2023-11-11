@@ -232,21 +232,6 @@ body {
 
 }
 
-#championsss {
-  margin-top: 50px;
-  color: rgb(217, 188, 27);;
-  text-shadow: 1px 1px 2px rgb(144, 24, 255);
-  font-family: 'Times New Roman', Times, serif;
-  padding-left: 1%;
-}
-
-#stats{
-  margin-top:10px;
-  color: rgb(217, 188, 27);
-  text-shadow: 1px 1px 2px rgb(144, 24, 255);
-  font-family: 'Times New Roman', Times, serif;
-}
-
 .image{
   position: relative;
 }
@@ -269,19 +254,23 @@ body {
   opacity: 1;
 }
 
+#championsss {
+  color: rgb(217, 188, 27);;
+  text-shadow: 1px 1px 2px rgb(144, 24, 255);
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 1%;
+}
+
+#stats{
+  margin-top:10px;
+  color: rgb(217, 188, 27);
+  text-shadow: 1px 1px 2px rgb(144, 24, 255);
+  font-family: 'Times New Roman', Times, serif;
+}
+
 #personal-stats{
   font-family: 'Times New Roman', Times, serif;
   color: white;
-}
-
-#personal-stats-silver{
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-#personal-stats-bronze{
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 #events{
@@ -290,11 +279,7 @@ body {
   text-shadow: 1px 1px 2px rgba(187, 154, 33, 0.7);
 }
 
-#distance{
-  margin: 0 0 0 0;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+#random{
   background-image: url('./Photos/Opening-Picture.webp');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -302,13 +287,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
   z-index: -10;
-  color: rgb(255, 221, 29);
-  text-shadow: 2px 2px 4px rgb(144, 24, 255);
-  font-family: 'Times New Roman', Times, serif;
   transition: 5s;
-
   animation: animate;
   animation-direction: alternate-reverse;
   animation-play-state: running;
@@ -316,6 +296,17 @@ body {
   animation-duration: 30s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
+}
+
+#distance{
+  margin: 0 0 0 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  color: rgb(255, 221, 29);
+  text-shadow: 2px 2px 4px rgb(144, 24, 255);
+  font-family: 'Times New Roman', Times, serif;
 }
 @keyframes animate{
   0%{
@@ -333,4 +324,10 @@ body {
   100%{
     background-image: url("./Photos/Opening-Picture.webp");
   }
+}
+
+
+/*Store*/
+#product-background{
+  background-color: rgb(246,246,246);
 }

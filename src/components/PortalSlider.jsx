@@ -3,7 +3,7 @@ import Header from './header'
 
 function PortalSlider() {
   return (
-    <>
+    <div id="random">
     <Header/>
     <section id="distance" className="page-section call-to-action d-flex" >
     <div className="py-lg-5">
@@ -12,7 +12,7 @@ function PortalSlider() {
       </div>
     </div>
   </section>
-  </>
+  </div>
   )
 }
 

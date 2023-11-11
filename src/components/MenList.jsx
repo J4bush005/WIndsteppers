@@ -16,7 +16,7 @@ import Athlete15 from "../Athletes/Athlete 15.webp";
 
 function MenList() {
   return (
-    <section id="sprinter-pics" className="mt-5">
+    <section id="sprinter-pics" className="mt-3">
     <div className="container-fluid">
         <div className="row">
             <h1 className="display-1" id="championsss">Mens Roster:</h1>
@@ -36,22 +36,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -77,22 +77,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -118,22 +118,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -159,22 +159,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -200,22 +200,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -243,22 +243,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -284,22 +284,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -325,22 +325,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -366,22 +366,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -407,22 +407,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>
@@ -450,22 +450,22 @@ function MenList() {
                 <h3 id="events" className="display-5">Event 1</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 2</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
               <div className="row">
                 <h3 id="events" className="display-5">Event 3</h3>
                 <div id="personal-stats" className="col-12 display-6">Personal Best:</div>
                 <div id="personal-stats" className="col-12 display-6">Golds:</div>
-                <div id="personal-stats-silver" className="col-12 display-6">Silvers:</div>
-                <div id="personal-stats-bronze" className="col-12 display-6">Bronzes:</div>
+                <div id="personal-stats" className="col-12 display-6">Silvers:</div>
+                <div id="personal-stats" className="col-12 display-6">Bronzes:</div>
               </div>
             </div>
               </div>

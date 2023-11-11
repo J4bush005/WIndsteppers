@@ -47,13 +47,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -70,13 +70,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -93,13 +93,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -147,13 +147,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -170,13 +170,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -193,13 +193,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -247,13 +247,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -270,13 +270,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -293,13 +293,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -347,13 +347,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -370,13 +370,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -393,13 +393,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -447,13 +447,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -470,13 +470,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
@@ -493,13 +493,13 @@ function WomenList() {
                           Golds:
                         </div>
                         <div
-                          id="personal-stats-silver"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Silvers:
                         </div>
                         <div
-                          id="personal-stats-bronze"
+                          id="personal-stats"
                           className="col-12 display-6"
                         >
                           Bronzes:
