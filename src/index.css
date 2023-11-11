@@ -56,12 +56,3 @@ body {
   color: rgb(144,24,255);
   text-shadow: 2px 2px 4px rgb(255, 221, 29);
 }
-
-/*Store*/
-#product-background{
-  background-color: rgb(246,246,246);
-}
-
-#catchy{
-  margin:auto;
-}

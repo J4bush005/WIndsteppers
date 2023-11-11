@@ -2,6 +2,7 @@ import React from 'react'
 import Products from './Products'
 import Footer from '../../footer'
 import FeaturedProducts from './FeaturedProducts'
+import './Store.css'
 
 function Store() {
 
