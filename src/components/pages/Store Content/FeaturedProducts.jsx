@@ -10,15 +10,16 @@ function FeaturedProducts() {
             <div id="open-shoe" className="display-1">Something catchy</div>
             <div className="row">
               <div className="col-6">
-                <div id="open-shoes" className="display-4">
+                <div id="open-shoes" className="display-6">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do
                 </div>
+                <button id="buy-btn" className="btn">Buy Now</button>
               </div>
             </div>
           </div>
 
-          <div className="col">
+          <div className="col-4">
             <img src={Shoes} alt="" className="img-fluid" />
           </div>
         </div>

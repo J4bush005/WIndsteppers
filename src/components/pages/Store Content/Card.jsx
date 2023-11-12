@@ -5,14 +5,14 @@ const Card = ({ item }) => {
     <div className="container-fluid">
       <div className="row d-flex">
         <div className="col d-flex justify-content-center">
-          <div className="card">
+          <div id="product-card" className="card">
             <img
               src={item.img}
               alt=""
               className="img-fluid"
-              style={{ width: "300px" }}
+              style={{ width: "400px" }}
             />
-            <div className="card-body">
+            <div id="card-body" className="card-body">
             <h2 className="card-title">{item.title}</h2>
             <h3>${item.price}</h3>
             </div>

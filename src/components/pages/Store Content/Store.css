@@ -1,5 +1,9 @@
+div{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(246,246,246);
+}
 #product-background{
-    background-color: rgb(246,246,246);
+    
   }
   
   #catchy{
@@ -7,10 +11,45 @@
   }
 
   #open-shoe{
-    padding-left: 2%
+    
+    color: rgb(144, 24, 255);
+    text-shadow: 2px 2px 1px rgb(217, 188, 27);
   }
 
   #open-shoes{
-    padding-left: 4%;
+    
+    color: gray;
+  }
+
+  #left-pics{
+    max-width: 250px;
+  }
+
+  #middle-pics{
+    max-width: 800px;
   }
   
+  #buy-btn{
+    
+    background-color: rgb(217, 188, 27);
+    color: white;
+    transition: all 0.5s;
+  }
+
+  #buy-btn:hover{
+    transform: scale(1.1);
+  }
+
+  #product-card{
+    transition: all 0.5s;
+    border: none;
+   
+  }
+
+  #product-card:hover{
+    transform: scale(1.01);
+  }
+
+  #card-body{
+    background-color: rgb(246,246,246);
+  }
