@@ -3,7 +3,7 @@ import Shoes from "../../../Photos/Shoes.png";
 
 function FeaturedProducts() {
   return (
-    <div>
+    <div id="background">
       <div id="product-background">
         <div className="d-flex justify-content-evenly">
           <div id="catchy" className="col-6">

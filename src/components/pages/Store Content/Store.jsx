@@ -9,7 +9,7 @@ import './Store.css'
 function Store() {
 
   return (
-    <div>
+    <div id='background'>
       <Header/>
         <FeaturedProducts/>
         <Products/>

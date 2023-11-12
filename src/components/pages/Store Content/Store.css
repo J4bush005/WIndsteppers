@@ -1,11 +1,10 @@
 div{
   font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(246,246,246);
 }
-#product-background{
-    
+
+  #background{
+    background-color: rgb(246,246,246);
   }
-  
   #catchy{
     margin:auto;
   }
@@ -53,3 +52,42 @@ div{
   #card-body{
     background-color: rgb(246,246,246);
   }
+
+  #quantity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #quant-btn{
+    width: 40px;
+    height: 50px;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: all 0.5s;
+    font-size: larger;
+    background-color: rgb(246,246,246);
+  }
+
+  #price{
+    color: rgb(217, 188, 27);
+  }
+
+  #cart-btn{
+    background-color: rgb(217, 188, 27);
+    color: white;
+    font-size: xx-large;
+    width: 300px; 
+    transition: all 0.5s;
+  }
+
+  #cart-btn:hover{
+    transform: scale(1.1);
+    color: rgb(144, 24, 255);
+  }
+  
+
+ 
