@@ -83,22 +83,20 @@ const Products = ({type}) => {
     ]
 
   return (
-    <div className=''>
-        <div className="">
-            <h1>{type} Shirts</h1>
-            <div className="col d-flex">
+    <div className='d-flex justify-content-evenly'>
+        <div className="col-11">
+            <div className="col-lg d-flex">
                 {shirts.map(shirt=>(
                     <Card item={shirt} key={shirt.id}/>
                 ))}
             </div>
-        </div>
-        <div className="">
-            <h1>{type} Sweats</h1>
+        <div className=" mt-3">
             <div className="col d-flex">
                 {sweats.map(sweat=>(
                     <Card item={sweat} key={sweat.id}/>
                 ))}
             </div>
+        </div>
         </div>
     </div>
   )

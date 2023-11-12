@@ -3,6 +3,7 @@ import Home from "./components/pages/Home Content/home"
 import History from "./components/pages/History Content/History"
 import Portal from './components/pages/Portal Content/portal';
 import Store from './components/pages/Store Content/Store';
+import ProductPage from './components/pages/Store Content/ProductPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path='/History' element={<History/>}/>
       <Route path = '/Portal' element={<Portal/>}/>
       <Route path = '/Store' element={<Store/>}/>
+      <Route path = '/Page' element={<ProductPage/>}/>
     </Routes>
     </>
   );

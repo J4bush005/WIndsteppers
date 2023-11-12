@@ -4,6 +4,7 @@ import Footer from '../../footer'
 import FeaturedProducts from './FeaturedProducts'
 import './Store.css'
 
+
 function Store() {
 
   return (
