@@ -14,7 +14,7 @@ function Open() {
   return (
     
     <motion.div
-      initial={{ y: 900 }}
+      initial={{ y: 500 }}
       whileInView={{ y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
@@ -46,7 +46,7 @@ function Open() {
           </motion.h1>
           <motion.h1 style={{ y: textY }} id="team-name" className="text-break d-flex justify-content-center">
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 0.5 }}
               viewport={{ once: true }}
@@ -54,7 +54,7 @@ function Open() {
               W
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 0.7 }}
               viewport={{ once: true }}
@@ -62,7 +62,7 @@ function Open() {
               I
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 0.9 }}
               viewport={{ once: true }}
@@ -70,7 +70,7 @@ function Open() {
               N
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 1.1 }}
               viewport={{ once: true }}
@@ -78,7 +78,7 @@ function Open() {
               D
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 1.3 }}
               viewport={{ once: true }}
@@ -86,7 +86,7 @@ function Open() {
               S
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 1.5 }}
               viewport={{ once: true }}
@@ -94,7 +94,7 @@ function Open() {
               T
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 1.7 }}
               viewport={{ once: true }}
@@ -102,7 +102,7 @@ function Open() {
               E
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 1.9 }}
               viewport={{ once: true }}
@@ -110,7 +110,7 @@ function Open() {
               P
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 2.1 }}
               viewport={{ once: true }}
@@ -118,7 +118,7 @@ function Open() {
               P
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 2.3 }}
               viewport={{ once: true }}
@@ -126,7 +126,7 @@ function Open() {
               E
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 2.5 }}
               viewport={{ once: true }}
@@ -134,7 +134,7 @@ function Open() {
               R
             </motion.span>
             <motion.span
-              initial={{ y: 300 }}
+              initial={{ y: 150 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 1, delay: 2.7 }}
               viewport={{ once: true }}

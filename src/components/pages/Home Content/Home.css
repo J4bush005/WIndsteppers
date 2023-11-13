@@ -1,18 +1,18 @@
-.membership-btn{
+#membership-btn{
     background-color: rgb(217, 188, 27);
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: large;
-    width: 700px;
-    height: 70px;
-    border-radius: 10px;
     transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .membership-btn:hover{
+  #membership-btn:hover{
     color: rgb(144, 24, 255);
-    transform: scale(1.15);
+    transform: scale(1.05);
   }
 
 #building {
@@ -48,15 +48,15 @@
   }
 
   #jamison {
-    width: 500px;
+    max-width: 300px;
   }
   
   #thomas {
-    width: 500px;
+    max-width: 300px;
   }
   
   #sage {
-    width: 500px;
+    max-width: 300px;
   }
 
   #building-youth{
@@ -71,7 +71,7 @@
   }
 
   #group-picture{
-    width: 900px;
+    max-width: 600px;
   }
 
   #wordss{
@@ -126,5 +126,9 @@
     font-size: 10vw;
     color: white;
     font-family: "Times New Roman", Times, serif;
+  }
+
+  #family-pic{
+    max-width: 700px;
   }
   

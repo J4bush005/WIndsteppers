@@ -102,7 +102,7 @@ function HomeContent() {
               <div id="group-picture" className="col-6 justify-content-start">
                 <img src={Children} alt="" className="img-fluid" />
               </div>
-              <div className="col-7">
+              <div className="col-6">
                 <div id="wordss" className="r-text justify-content-end">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -143,19 +143,19 @@ function HomeContent() {
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.
                 </div>
-                <div id="join-button" className="d-flex justify-content-center">
-                  <a
+                <div id="join-button" className="d-flex justify-content-start">
+                  <button
                     href="/about"
-                    className="membership-btn"
+                    id="membership-btn"
+                    className="btn"
                     type="button"
-                    role="button"
                   >
                     {" "}
                     <span id="get-membership">Get a Membership</span>
-                  </a>
+                  </button>
                 </div>
               </div>
-              <div className="col-6">
+              <div id="family-pic" className="col-6">
                 <img src={Family} alt="" className="img-fluid" />
               </div>
             </div>

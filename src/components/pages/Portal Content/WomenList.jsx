@@ -10,7 +10,7 @@ function WomenList() {
     <section id="sprinter-pics" className="mt-5">
       <div className="container-fluid">
         <div className="row">
-          <h1 className="display-1" id="championsss">
+          <h1 className="display-2" id="championsss">
             Womens Roster:
           </h1>
         </div>
@@ -24,13 +24,13 @@ function WomenList() {
                     src={Athlete3}
                     alt=""
                     className="card-img-top"
-                    style={{ height: "800px", objectFit: "cover" }}
+                    style={{ height: "500px", objectFit: "cover" }}
                   />
                   <div className="content">
                     <div id="athlete-stats">
                       <div className="row">
                         <h1
-                          className="display-1 d-flex justify-content-center"
+                          className="display-2 d-flex justify-content-center"
                           id="stats"
                         >
                           Stats:
@@ -40,21 +40,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 1
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -63,21 +63,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 2
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -86,21 +86,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 3
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -124,13 +124,13 @@ function WomenList() {
                     src={Athlete4}
                     alt=""
                     className="card-img-top"
-                    style={{ height: "800px", objectFit: "cover" }}
+                    style={{ height: "500px", objectFit: "cover" }}
                   />
                   <div className="content">
                     <div id="athlete-stats">
                       <div className="row">
                         <h1
-                          className="display-1 d-flex justify-content-center"
+                          className="display-2 d-flex justify-content-center"
                           id="stats"
                         >
                           Stats:
@@ -140,21 +140,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 1
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -163,21 +163,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 2
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -186,21 +186,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 3
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -224,13 +224,13 @@ function WomenList() {
                     src={Athlete6}
                     alt=""
                     className="card-img-top"
-                    style={{ height: "800px", objectFit: "cover" }}
+                    style={{ height: "500px", objectFit: "cover" }}
                   />
                   <div className="content">
                     <div id="athlete-stats">
                       <div className="row">
                         <h1
-                          className="display-1 d-flex justify-content-center"
+                          className="display-2 d-flex justify-content-center"
                           id="stats"
                         >
                           Stats:
@@ -240,21 +240,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 1
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -263,21 +263,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 2
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -286,21 +286,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 3
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -324,13 +324,13 @@ function WomenList() {
                     src={Athlete11}
                     alt=""
                     className="card-img-top"
-                    style={{ height: "800px", objectFit: "cover" }}
+                    style={{ height: "500px", objectFit: "cover" }}
                   />
                   <div className="content">
                     <div id="athlete-stats">
                       <div className="row">
                         <h1
-                          className="display-1 d-flex justify-content-center"
+                          className="display-2 d-flex justify-content-center"
                           id="stats"
                         >
                           Stats:
@@ -340,21 +340,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 1
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -363,21 +363,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 2
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -386,21 +386,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 3
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -424,13 +424,13 @@ function WomenList() {
                     src={Athlete16}
                     alt=""
                     className="card-img-top"
-                    style={{ height: "800px", objectFit: "cover" }}
+                    style={{ height: "500px", objectFit: "cover" }}
                   />
                   <div className="content">
                     <div id="athlete-stats">
                       <div className="row">
                         <h1
-                          className="display-1 d-flex justify-content-center"
+                          className="display-2 d-flex justify-content-center"
                           id="stats"
                         >
                           Stats:
@@ -440,21 +440,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 1
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -463,21 +463,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 2
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
@@ -486,21 +486,21 @@ function WomenList() {
                         <h3 id="events" className="display-5">
                           Event 3
                         </h3>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Personal Best:
                         </div>
-                        <div id="personal-stats" className="col-12 display-6">
+                        <div id="personal-stats" className="col-12 ">
                           Golds:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Silvers:
                         </div>
                         <div
                           id="personal-stats"
-                          className="col-12 display-6"
+                          className="col-12 "
                         >
                           Bronzes:
                         </div>
