@@ -15,32 +15,36 @@
     transform: scale(1.05);
   }
 
-#building {
-    font-family: "Times New Roman", Times, serif;
-    background-image: url('../../../Photos/AdobeStock_449117631.jpeg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    height: 100%;
-    width: 100%;
-  }
-
   #champions {
     margin-top: 50px;
-    color: rgb(217, 188, 27);;
+    color: rgb(217, 188, 27);
+    text-shadow: 1px 1px 2px rgb(144, 24, 255);
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #champions-sm{
+    color: rgb(217, 188, 27);
     text-shadow: 1px 1px 2px rgb(144, 24, 255);
     font-family: 'Times New Roman', Times, serif;
   }
 
   #words {
     font-size: 1.5vw;
-    padding-left: 2%;
     color: rgb(144, 24, 255);
     font-family: 'Times New Roman', Times, serif;
+  }
+
+  #words-sm{
+    font-size: 5vw;
+    color: rgb(144, 24, 255);
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #wordss-sm{
+    font-size: 5vw;
+    color: rgb(144, 24, 255);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
   }
 
   #picture-format {
@@ -63,10 +67,20 @@
     background-color: rgba(143, 24, 255, 0.507);
   }
 
+  #building-youth-sm{
+    background-color: rgba(143, 24, 255, 0.507);
+  }
+
   #build{
     color: rgb(255, 221, 29);
     margin-top: 50px;
     text-shadow: 2px 2px 4px rgb(255, 221, 29);
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #build-sm{
+    color: rgb(255, 221, 29);
+    text-shadow: 1px 1px 2px rgb(255, 221, 29);
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -108,6 +122,20 @@
     background-position: bottom;
     background-image: url("../../../Photos/IMG_4245.JPG");
     height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #open-section-sm{
+    margin: 0 0 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-image: url("../../../Photos/IMG_4245.JPG");
+    height: 200px;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -128,7 +156,19 @@
     font-family: "Times New Roman", Times, serif;
   }
 
+  #team-name-sm{
+    margin-top: auto;
+    display: flex;
+    font-size: 7vw;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
   #family-pic{
     max-width: 700px;
   }
-  
+
+  #building{
+    background-image: url("../../../Photos/AdobeStock_449117631.jpeg");
+  }
+
