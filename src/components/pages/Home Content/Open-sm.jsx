@@ -8,20 +8,20 @@ function Opensmall() {
     target: ref,
     offset: ["start start", "end start"],
   });
-  const moveUp = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
+  const moveUp = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-150%"]);
   const moveHeader = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
-  const moveScripture = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
+  const moveScripture = useTransform(scrollYProgress, [0, 1], ["0%", "-110%"]);
 
   return (
     <motion.div
-      initial={{ y: 200 }}
-      whileInView={{ y: 0 }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
       <div id="">
-      <Header/>
+        <Header/>
         <motion.div style={{ y: moveUp }}>
           <section
             id="open-section-sm"

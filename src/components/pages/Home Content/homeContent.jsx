@@ -31,7 +31,7 @@ function HomeContent() {
               <div className="col-6">
                 <div className="ratio ratio-21x9">
                   <iframe
-                    src="https://www.youtube.com/embed/-CtD2fIFG-Q?autoplay=1&loop=1&playlist=-CtD2fIFG-Q"
+                    src="https://www.youtube.com/embed/-CtD2fIFG-Q?autoplay=1&mute=1&loop=1&playlist=-CtD2fIFG-Q"
                     title="Youtube video"
                     allowFullScreen
                   ></iframe>

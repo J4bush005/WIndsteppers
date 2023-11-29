@@ -18,11 +18,24 @@ body {
 }
 
 /*HEADER*/
-#nav-styles {
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-  font-size: x-large;
+.navbar{
+  background-color: rgb(144, 24, 255, 0.1);
 }
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#cart{
+  max-width: 2.5vw;
+}
+
+#lists{
+  color: white;
+
+}
+
+
 
 /*Foot*/
 .foot{
@@ -62,6 +75,12 @@ body {
 }
 
 @media  screen and (max-width: 768px) {
+  #cart{
+    max-width: 5vw;
+  }
+  #logo{
+    max-width: 70px;
+  }
   .foot-hover{
     font-size: 3vw;
   }

@@ -19,7 +19,7 @@ function FeaturedProducts() {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-5">
             <img src={Shoes} alt="" className="img-fluid" />
           </div>
         </div>

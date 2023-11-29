@@ -14,6 +14,7 @@ function Home() {
     offset: ["start start", "end start"],
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "-40%"]);
+  const backgroundYs = useTransform(scrollYProgress, [0, 1], ["0%", "-15%"]);
 
   return (
     <>
@@ -22,9 +23,9 @@ function Home() {
           <div id="full-image">
           <SmallOpen/>
           </div>
-    
+          <motion.div style={{y: backgroundYs}}>
           <ContentSmall/>
-      
+          </motion.div>
         </div>
       </Media>
 

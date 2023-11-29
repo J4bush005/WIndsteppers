@@ -160,8 +160,9 @@ function ContentSmall() {
                 <img src={Family} alt="" className="img-fluid" />
               </div>
             </div>
+            <Footer />
           </section>
-          <Footer />
+          
         </motion.div>
       </div>
     </motion.div>
