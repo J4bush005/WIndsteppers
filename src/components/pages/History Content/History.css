@@ -13,8 +13,7 @@
   }
 
   #test{
-    width: 400px;
-    height: 200px;
+    height: 20vh;
     object-fit: cover;
    }
 
@@ -25,8 +24,22 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
+  #champions-sm{
+    margin-top: 20px;
+    color: rgb(217, 188, 27);;
+    text-shadow: 1px 1px 2px rgb(144, 24, 255);
+    font-family: 'Times New Roman', Times, serif;
+  }
+
   #words {
     font-size: 1.5vw;
+    padding-left: 2%;
+    color: rgb(144, 24, 255);
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #words-sm{
+    font-size: 3vw;
     padding-left: 2%;
     color: rgb(144, 24, 255);
     font-family: 'Times New Roman', Times, serif;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Athlete1 from "../../../Athletes/Athlete 1.webp";
 import Athlete2 from "../../../Athletes/Athlete 2.webp";
 
@@ -15,6 +15,10 @@ import Athlete14 from "../../../Athletes/Athlete 14.webp";
 import Athlete15 from "../../../Athletes/Athlete 15.webp";
 
 function MenList() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [scrollToAthlete, setScrollToAthlete] = useState("");
+  // ...
+
   return (
     <section className="mt-3">
     <div className="container-fluid">

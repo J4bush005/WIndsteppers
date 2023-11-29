@@ -27,7 +27,7 @@ const HistorySlidersm = () => {
     slideShadow={false}
     centeredSlides={true}
     loop={true}
-    slidesPerView={'3'}
+    slidesPerView={'2'}
     autoplay={{
         delay: 5000,
 
@@ -35,7 +35,7 @@ const HistorySlidersm = () => {
     coverflowEffect={
         {
             rotate: 0,
-            stretch: -40,
+            stretch: 0,
             depth: 400,
             modifier: 0.5,
         }

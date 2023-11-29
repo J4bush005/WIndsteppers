@@ -6,11 +6,11 @@ function HistoryContentsm() {
     <>
     <div id="purp-back" className="container-fluid">
       <div>
-        <h1 id="champions" className="display-1 justify-content-center d-flex">
+        <h1 id="champions-sm" className="display-3  d-flex">
           Our History
         </h1>
-        <div className="row d-flex justify-content-center mb-5">
-          <div id="words" className="col-lg d-flex justify-content-center">
+        <div className="row d-flex mb-3">
+          <div id="words-sm" className="col-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -22,12 +22,12 @@ function HistoryContentsm() {
         </div>
       </div>
       <HistorySlider/>
-      <div className="row d-flex justify-contnet-evenly mt-5">
+      <div className="row d-flex justify-contnet-evenly mt-2">
         <div className="col-lg">
-          <h1 id="championss" className="display-1">
+          <h1 id="championss" className="display-3">
             Ecclesiastes 9:11
           </h1>
-          <div id="words">
+          <div id="words-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -38,10 +38,10 @@ function HistoryContentsm() {
           </div>
         </div>
         <div className="col-lg">
-          <h1 id="championss" className="display-1">
+          <h1 id="championss" className="display-3">
             No Excuses
           </h1>
-          <div id="words">
+          <div id="words-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
