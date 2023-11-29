@@ -13,7 +13,7 @@ function ContentSmall() {
     target: ref,
     offset: ["start start", "end start"],
   });
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "5%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "0%"]);
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
       <div id="building">

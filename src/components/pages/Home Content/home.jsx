@@ -14,7 +14,7 @@ function Home() {
     offset: ["start start", "end start"],
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "-40%"]);
-  const backgroundYs = useTransform(scrollYProgress, [0, 1], ["0%", "-15%"]);
+  const backgroundYs = useTransform(scrollYProgress, [0, 1], ["0%", "-1%"]);
 
   return (
     <>
