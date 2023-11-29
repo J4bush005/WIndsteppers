@@ -11,9 +11,9 @@ function ContentSmall() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start start", "end start"],
+    offset: ["start start", "start start"],
   });
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "0%"]);
+  const textY = useTransform(scrollYProgress, [0, 0], ["0%", "0%"]);
   return (
     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
       <div id="building">
@@ -94,8 +94,8 @@ function ContentSmall() {
           transition={{ duration: 1, delay: 1 }}
           viewport={{ once: true }}
         >
-          <section id="building-youth-sm">
-          <div>
+          <section id="building-youth-sm" className="pb-3">
+          <div className="mt-2">
             <h1 id="build-sm" className="display-1 d-flex">
               Developing the Youth
             </h1>

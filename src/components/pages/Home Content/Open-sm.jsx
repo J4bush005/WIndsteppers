@@ -8,7 +8,7 @@ function Opensmall() {
     target: ref,
     offset: ["start start", "end start"],
   });
-  const moveUp = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
+  const moveUp = useTransform(scrollYProgress, [0, 1], ["0%", "-2%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-150%"]);
   const moveHeader = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
   const moveScripture = useTransform(scrollYProgress, [0, 1], ["0%", "-110%"]);
