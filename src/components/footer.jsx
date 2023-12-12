@@ -94,11 +94,11 @@ function Footer() {
             </a>
           </section>
         </div>
-        <div id="designed" class="text-center p-3">
+        <div id="designed" class="text-center p-3 h6">
           Designed by:
           <a
             href="/"
-            class="foot-hover space"
+            class="foot-hover space h6"
             onClick={() => window.open(mine, "_blank")}
           >
             Forbush Technologies LLC{" "}
