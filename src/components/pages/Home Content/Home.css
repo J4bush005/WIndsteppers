@@ -22,11 +22,7 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
-  #champions-sm{
-    color: rgb(217, 188, 27);
-    text-shadow: 1px 1px 2px rgb(144, 24, 255);
-    font-family: 'Times New Roman', Times, serif;
-  }
+
 
   #words-home {
     padding-left: 2%;
@@ -34,18 +30,8 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
-  #words-sm{
-    font-size: 5vw;
-    color: rgb(144, 24, 255);
-    font-family: 'Times New Roman', Times, serif;
-  }
 
-  #wordss-sm{
-    font-size: 5vw;
-    color: rgb(144, 24, 255);
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-  }
+
 
   #picture-format {
     margin-top: 2%;
@@ -70,9 +56,7 @@
     margin-top: 3%;
   }
 
-  #building-youth-sm{
-    background-color: rgba(143, 24, 255, 0.507);
-  }
+ 
 
   #build{
     color: rgb(255, 221, 29);
@@ -81,11 +65,7 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
-  #build-sm{
-    color: rgb(255, 221, 29);
-    text-shadow: 1px 1px 2px rgb(255, 221, 29);
-    font-family: 'Times New Roman', Times, serif;
-  }
+
 
   #group-picture{
     max-width: 600px;
