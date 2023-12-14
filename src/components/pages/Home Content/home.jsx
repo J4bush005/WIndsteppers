@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Media from "react-media";
 import Content from "./homeContent";
 import "./Home.css";
-import ContentSmall from "./ContentSmall";
+
 
 function Home() {
   const ref = useRef(null);
@@ -18,18 +18,6 @@ function Home() {
 
   return (
     <>
-      <Media query="(max-width: 768px)">
-        <div id="">
-          <div id="full-image">
-          <SmallOpen/>
-          </div>
-          <motion.div style={{y:backgroundYs}}>
-          <ContentSmall/>
-          </motion.div>
-        </div>
-      </Media>
-
-      <Media query="(min-width: 769px)">
         <div id="container">
           <div id="full-image">
             <Open />
@@ -38,7 +26,6 @@ function Home() {
             <Content />
           </motion.div>
         </div>
-      </Media>
     </>
   );
 }

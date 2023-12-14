@@ -15,7 +15,7 @@ function Footer() {
             <div class="row text-center d-flex justify-content-center">
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                  <a href="/Store" class="foot-hover">
+                  <a href="/Store" class="foot-hover h6">
                     Buy Gear
                   </a>
                 </h6>
@@ -23,14 +23,14 @@ function Footer() {
   
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                <a href="/Portal" class="foot-hover">
+                <a href="/Portal" class="foot-hover h6">
                     Athletes
                   </a>
                 </h6>
               </div>
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                <a href="/About" class="foot-hover">
+                <a href="/About" class="foot-hover h6">
                     Events
                   </a>
                 </h6>
@@ -38,14 +38,14 @@ function Footer() {
   
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                <a href="/Estimate" class="foot-hover">
+                <a href="/Estimate" class="foot-hover h6">
                     Join the Family
                   </a>
                 </h6>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 ">
                 <h6 class="text-uppercase font-weight-bold">
-                  <a href='https://smbctgm.org/' target='page' class="foot-hover">
+                  <a href='https://smbctgm.org/' target='page' class="foot-hover h6">
                     SMBC Baptist Church
                   </a>
                 </h6>

@@ -16,7 +16,7 @@
   }
 
   #champions {
-    margin-top: 50px;
+    
     color: rgb(217, 188, 27);
     text-shadow: 1px 1px 2px rgb(144, 24, 255);
     font-family: 'Times New Roman', Times, serif;
@@ -28,8 +28,8 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
-  #words {
-    font-size: 1.5vw;
+  #words-home {
+    padding-left: 2%;
     color: rgb(144, 24, 255);
     font-family: 'Times New Roman', Times, serif;
   }
@@ -49,22 +49,25 @@
 
   #picture-format {
     margin-top: 2%;
+    
   }
 
   #jamison {
-    max-width: 300px;
+    max-height: 350px;
+    
   }
   
   #thomas {
-    max-width: 300px;
+    max-height: 350px;
   }
   
   #sage {
-    max-width: 300px;
+    max-height: 350px;
   }
 
   #building-youth{
     background-color: rgba(143, 24, 255, 0.507);
+    margin-top: 3%;
   }
 
   #building-youth-sm{
@@ -73,7 +76,7 @@
 
   #build{
     color: rgb(255, 221, 29);
-    margin-top: 50px;
+
     text-shadow: 2px 2px 4px rgb(255, 221, 29);
     font-family: 'Times New Roman', Times, serif;
   }
@@ -89,7 +92,7 @@
   }
 
   #wordss{
-    font-size: 1.5vw;
+    
     padding-left: 2%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -103,8 +106,7 @@
   #get-membership{
     display: flex;
     justify-content: center;
-    font-size: 2vw;
-    
+    align-items: center; 
   }
 
   #container {

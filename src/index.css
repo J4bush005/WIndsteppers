@@ -56,7 +56,6 @@ body {
 .foot-hover{
   text-decoration: none;
   color: rgb(144, 24, 255);
-  font-size: 0.7vw;
   transition: all 0.3s;
 }
 
