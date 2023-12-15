@@ -2,10 +2,9 @@ import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Footer from "../../footer";
 import Family from "../../../Photos/Replace.webp";
-import Jamison from "../../../Photos/Jamison Medal.webp";
-import Thomas from "../../../Photos/Thomas Medal.webp";
-import Sage from "../../../Photos/Sage Medal.webp";
 import Children from "../../../Photos/CHildren.webp";
+import Video from "./Video";
+import Pictures from "./Pictures";
 
 function HomeContent() {
   const ref = useRef(null);
@@ -29,62 +28,8 @@ function HomeContent() {
             </motion.div>
           </div>
         </div>
-        <div className="container" style={{ textY }}>
-          <div className="row">
-            <div className="col-md-5 col-sm-12 col-xs-12">
-              <div className="ratio ratio-21x9">
-                <iframe
-                  src="https://www.youtube.com/embed/-CtD2fIFG-Q?autoplay=1&mute=1&loop=1&playlist=-CtD2fIFG-Q"
-                  title="Youtube video"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-            <div className="col-md-7 col-sm-12 col-xs-12">
-              <div id="words-home" className="h4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="picture-format" className="container d-flex">
-          <motion.div
-            style={{ y: textY }}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.5 }}
-            viewport={{ once: true }}
-            className="col-lg-4 col-md-4  d-flex justify-content-center"
-          >
-            <img src={Jamison} alt="" className="img-fluid" id="jamison" />
-          </motion.div>
-          <motion.div
-            style={{ y: textY }}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
-            viewport={{ once: true }}
-            className="col-lg-4 d-flex justify-content-center"
-          >
-            <img src={Thomas} alt="" className="img-fluid" id="thomas" />
-          </motion.div>
-          <motion.div
-            style={{ y: textY }}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1.5 }}
-            viewport={{ once: true }}
-            className="col-lg-4 d-flex justify-content-center"
-          >
-            <img src={Sage} alt="" className="img-fluid" id="thomas" />
-          </motion.div>
-        </div>
+       <Video/>
+       <Pictures/>
       </section>
 
       <motion.div
