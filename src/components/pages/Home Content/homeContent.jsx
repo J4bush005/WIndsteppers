@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Footer from "../../footer";
-
 import Video from "./Video";
 import Pictures from "./Pictures";
 import Children from "./Children";

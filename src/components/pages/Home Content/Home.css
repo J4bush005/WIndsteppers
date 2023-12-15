@@ -1,159 +1,160 @@
-#membership-btn{
-    background-color: rgb(217, 188, 27);
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    font-size: large;
-    transition: all 0.3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+#membership-btn {
+  background-color: rgb(217, 188, 27);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-size: large;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  #membership-btn:hover{
-    color: rgb(144, 24, 255);
-    transform: scale(1.05);
-  }
+#membership-btn:hover {
+  color: rgb(144, 24, 255);
+  transform: scale(1.05);
+}
 
-  #champions {
-    
-    color: rgb(217, 188, 27);
-    text-shadow: 1px 1px 2px rgb(144, 24, 255);
-    font-family: 'Times New Roman', Times, serif;
-  }
+#champions {
+  color: rgb(217, 188, 27);
+  text-shadow: 1px 1px 2px rgb(144, 24, 255);
+  font-family: "Times New Roman", Times, serif;
+}
 
+#words-home {
+  padding-left: 2%;
+  color: rgb(144, 24, 255);
+  font-family: "Times New Roman", Times, serif;
+}
 
+#picture-format {
+  margin-top: 2%;
+}
 
+#jamison {
+  max-height: 350px;
+}
+
+#thomas {
+  max-height: 350px;
+}
+
+#sage {
+  max-height: 350px;
+}
+
+#building-youth {
+  background-color: rgba(143, 24, 255, 0.507);
+  margin-top: 3%;
+}
+
+#build {
+  color: rgb(255, 221, 29);
+
+  text-shadow: 2px 2px 4px rgb(255, 221, 29);
+  font-family: "Times New Roman", Times, serif;
+}
+
+#group-picture {
+  max-width: 600px;
+}
+
+#wordss {
+  padding-left: 2%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#join-button {
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+}
+
+#get-membership {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  height: 200px;
+}
+
+#open-section {
+  margin: 0 0 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-image: url("../../../Photos/IMG_4245.JPG");
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#open-section-sm {
+  margin: 0 0 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-image: url("../../../Photos/IMG_4245.JPG");
+  height: 540px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#scripture-abbr {
+  color: white;
+  margin-top: auto;
+  padding-left: 1%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3vw;
+}
+
+#team-name {
+  margin-top: auto;
+  display: flex;
+  font-size: 10vw;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#team-name-sm {
+  margin-top: auto;
+  display: flex;
+  font-size: 12vw;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#family-pic {
+  max-width: 700px;
+}
+
+#building {
+  background-image: url("../../../Photos/AdobeStock_449117631.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #words-home {
+    font-size: medium;
     padding-left: 2%;
     color: rgb(144, 24, 255);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
 
-
-
-
-  #picture-format {
-    margin-top: 2%;
-    
-  }
-
-  #jamison {
-    max-height: 350px;
-    
-  }
-  
-  #thomas {
-    max-height: 350px;
-  }
-  
-  #sage {
-    max-height: 350px;
-  }
-
-  #building-youth{
-    background-color: rgba(143, 24, 255, 0.507);
-    margin-top: 3%;
-  }
-
- 
-
-  #build{
-    color: rgb(255, 221, 29);
-
-    text-shadow: 2px 2px 4px rgb(255, 221, 29);
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-
-
-  #group-picture{
-    max-width: 600px;
-  }
-
-  #wordss{
-    
+  #wordss {
+    font-size: medium;
     padding-left: 2%;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  #join-button{
-    font-family: 'Times New Roman', Times, serif;
-    width: 100%;
-  }
-
-  #get-membership{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-  }
-
-  #container {
-    height: 200px;
-  }
-
-  #open-section {
-    margin: 0 0 0 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    background-image: url("../../../Photos/IMG_4245.JPG");
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #open-section-sm{
-    margin: 0 0 0 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-position: center center ;
-    background-image: url("../../../Photos/IMG_4245.JPG");
-    height: 540px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #scripture-abbr {
-    color: white;
-    margin-top: auto;
-    padding-left: 1%;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 3vw;
-  }
-
-  #team-name {
-    margin-top: auto;
-    display: flex;
-    font-size: 10vw;
-    color: white;
     font-family: "Times New Roman", Times, serif;
   }
-
-  #team-name-sm{
-    margin-top: auto;
-    display: flex;
-    font-size: 12vw;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  #family-pic{
-    max-width: 700px;
-  }
-
-  #building{
-    background-image: url("../../../Photos/AdobeStock_449117631.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-
-
+}
