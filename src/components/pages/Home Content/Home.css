@@ -158,3 +158,19 @@
     font-family: "Times New Roman", Times, serif;
   }
 }
+
+@media screen and (max-width: 767px) {
+  #words-home {
+    font-size: small;
+    padding-left: 2%;
+    color: rgb(144, 24, 255);
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  #wordss {
+    font-size: small;
+    padding-left: 2%;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+}

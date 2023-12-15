@@ -5,6 +5,7 @@ import Video from "./Video";
 import Pictures from "./Pictures";
 import Children from "./Children";
 import Membership from "./Membership";
+import Media from "react-media";
 
 function HomeContent() {
   const ref = useRef(null);
@@ -17,19 +18,30 @@ function HomeContent() {
     <div id="building">
       <section>
         <div className="container">
-          <div className="col-lg">
-            <motion.div
-              className="d-flex justify-content-center"
-              style={{ textY }}
-            >
-              <h1 id="champions" className="display-1">
-                Building Champions
-              </h1>
-            </motion.div>
-          </div>
+          <Media query="(max-width: 767px)">
+            <div className="col-lg">
+              <motion.div className="d-flex justify-content-center" style={{ textY }}>
+                <h1 id="champions" className="display-2 ">
+                  Building Champions
+                </h1>
+              </motion.div>
+            </div>
+          </Media>
+          <Media query="(min-width: 768px)">
+            <div className="col-lg">
+              <motion.div
+                className="d-flex justify-content-center"
+                style={{ textY }}
+              >
+                <h1 id="champions" className="display-1">
+                  Building Champions
+                </h1>
+              </motion.div>
+            </div>
+          </Media>
         </div>
-       <Video/>
-       <Pictures/>
+        <Video />
+        <Pictures />
       </section>
 
       <motion.div
@@ -39,16 +51,30 @@ function HomeContent() {
         transition={{ duration: 1, delay: 1 }}
         viewport={{ once: true }}
       >
-        <section id="building-youth">
-          <div className="container">
-            <div className="d-flex justify-content-center">
-              <h1 className="display-1" id="build">
-                Developing the Youth
-              </h1>
+        <Media query="(max-width: 767px)">
+          <section id="building-youth">
+            <div className="container">
+              <div className="d-flex justify-content-center">
+                <h1 className="display-2" id="build">
+                  Developing the Youth
+                </h1>
+              </div>
             </div>
-          </div>
-          <Children/>
-        </section>
+            <Children />
+          </section>
+        </Media>
+        <Media query="(min-width: 768px)">
+          <section id="building-youth">
+            <div className="container">
+              <div className="d-flex justify-content-center">
+                <h1 className="display-1" id="build">
+                  Developing the Youth
+                </h1>
+              </div>
+            </div>
+            <Children />
+          </section>
+        </Media>
       </motion.div>
 
       <motion.div
@@ -66,7 +92,7 @@ function HomeContent() {
               </h1>
             </div>
           </div>
-         <Membership/>
+          <Membership />
         </section>
         <Footer />
       </motion.div>
