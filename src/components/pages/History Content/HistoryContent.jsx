@@ -4,13 +4,13 @@ import HistorySlider from "./HistorySlider";
 function HistoryContent() {
   return (
     <>
-    <div id="purp-back" className="container-fluid">
+    <div id="purp-back" className="container">
       <div>
         <h1 id="champions" className="display-1 justify-content-center d-flex">
           Our History
         </h1>
         <div className="row d-flex justify-content-center mb-5">
-          <div id="words" className="col-lg d-flex justify-content-center">
+          <div id="words" className="col-12 d-flex justify-content-center h4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -23,7 +23,7 @@ function HistoryContent() {
       </div>
       <HistorySlider/>
       <div className="row d-flex justify-contnet-evenly mt-5">
-        <div className="col-lg">
+        <div className="col-lg-6">
           <h1 id="championss" className="display-1">
             Ecclesiastes 9:11
           </h1>
@@ -37,7 +37,7 @@ function HistoryContent() {
             culpa qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
-        <div className="col-lg">
+        <div className="col-lg-6">
           <h1 id="championss" className="display-1">
             No Excuses
           </h1>

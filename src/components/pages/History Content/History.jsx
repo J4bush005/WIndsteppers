@@ -9,20 +9,13 @@ import HistoryContentsm from "./HistoryContentsm";
 function History() {
   return (
     <>
-      <Media query="(max-width: 768px)">
-        <div id="purp-back">
-          <Header />
-          <HistoryContentsm />
-          <Footer />
-        </div>
-      </Media>
-      <Media query="(min-width: 769px)">
+
         <div id="purp-back">
           <Header />
           <HistoryContent />
           <Footer />
         </div>
-      </Media>
+ 
     </>
   );
 }
