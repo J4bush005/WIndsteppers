@@ -1,11 +1,4 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 
 import Retro from "../../../Photos/Retro-1.webp";
 import Retro2 from "../../../Photos/Retro-2.webp";
@@ -23,28 +16,28 @@ const HistorySlider = () => {
   <div id="purp-back" className="container">
     <MDBCarousel showControls>
       <MDBCarouselItem itemId={1}>
-        <img src={Retro} className='d-block w-100 h-100' alt='...' />
+        <img src={Retro} className='d-block w-100 img-fluid' alt='...'  style={{height:"90vh", objectFit:"cover"}}/>
       </MDBCarouselItem>
       <MDBCarouselItem itemId={2}>
-        <img src={Retro2} className='d-block w-100 h-100' alt='...' />
+        <img src={Retro2} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
       </MDBCarouselItem>
       <MDBCarouselItem itemId={3}>
-        <img src={Retro3} className='d-block w-100 h-100' alt='...' />
+        <img src={Retro3} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
       </MDBCarouselItem>
        <MDBCarouselItem itemId={4}>
-        <img src={Retro4} className='d-block w-100 h-100' alt='...' />
+        <img src={Retro4} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
       </MDBCarouselItem>
        <MDBCarouselItem itemId={5}>
-        <img src={Retro5} className='d-block w-100 h-100' alt='...' />
+        <img src={Retro5} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
       </MDBCarouselItem>
        <MDBCarouselItem itemId={6}>
-        <img src={Retro6} className='d-block w-100 h-100' alt='...' />
+        <img src={Retro6} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
       </MDBCarouselItem>
        <MDBCarouselItem itemId={7}>
-        <img src={Retro7} className='d-block w-100 h-100' alt='...' />
+        <img src={Retro7} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
       </MDBCarouselItem>
        <MDBCarouselItem itemId={8}>
-        <img src={Final} className='d-block w-100 h-100' alt='...' />
+        <img src={Final} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
       </MDBCarouselItem>
     </MDBCarousel>
   </div>
