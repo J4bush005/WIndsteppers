@@ -1,10 +1,11 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Footer from "../../footer";
-import Family from "../../../Photos/Replace.webp";
-import Children from "../../../Photos/CHildren.webp";
+
 import Video from "./Video";
 import Pictures from "./Pictures";
+import Children from "./Children";
+import Membership from "./Membership";
 
 function HomeContent() {
   const ref = useRef(null);
@@ -47,25 +48,7 @@ function HomeContent() {
               </h1>
             </div>
           </div>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-4 col-sm-12 col-xs-12" id="">
-                <img src={Children} alt="" className="img-fluid mb-3" />
-              </div>
-              <div className="col-md-8 col-sm-12 col-xs-12">
-                <div className=" h3 d-flex" id="wordss">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </div>
-              </div>
-            </div>
-          </div>
+          <Children/>
         </section>
       </motion.div>
 
@@ -84,31 +67,7 @@ function HomeContent() {
               </h1>
             </div>
           </div>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-7 col-sm-12 col-xs-12">
-                <div id="words-home" className="h4">
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </div>
-                <div className="justify-content-start">
-                  <button className="btn" type="button" id="membership-btn">
-                    {" "}
-                    <span className="h6" id="get-membership">Get a Membership</span>
-                  </button>
-                </div>
-              </div>
-              <div className="col-md-5 col-sm-12 col-xs-12">
-              <img src={Family} alt="" className="img-fluid" /></div>
-            </div>
-          </div>
+         <Membership/>
         </section>
         <Footer />
       </motion.div>
