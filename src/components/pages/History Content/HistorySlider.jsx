@@ -27,7 +27,7 @@ const HistorySlider = () => {
     slideShadow={false}
     centeredSlides={true}
     loop={true}
-    slidesPerView={'3'}
+    slidesPerView={'4'}
     autoplay={{
         delay: 5000,
 
