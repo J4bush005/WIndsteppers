@@ -85,13 +85,7 @@ function Footer() {
                 />
               </i>
             </a>
-            <a
-              href="/"
-              class="btn btn-floating m1"
-              role="button"
-              aria-expanded="false"
-            >
-            </a>
+        
           </section>
         </div>
         <div id="designed" class="text-center p-3 h6">

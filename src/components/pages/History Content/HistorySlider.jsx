@@ -4,42 +4,71 @@ import Retro from "../../../Photos/Retro-1.webp";
 import Retro2 from "../../../Photos/Retro-2.webp";
 import Retro3 from "../../../Photos/Retro-3.webp";
 import Retro4 from "../../../Photos/Retro 4.webp";
-import Retro5 from "../../../Photos/Retro 5 (1).webp"
-import Retro6 from "../../../Photos/Retro 6.webp"
-import Retro7 from "../../../Photos/Retro 7.webp"
+import Retro5 from "../../../Photos/Retro 5 (1).webp";
+import Retro6 from "../../../Photos/Retro 6.webp";
+import Retro7 from "../../../Photos/Retro 7.webp";
 import Final from "../../../Photos/Opening-Picture.webp";
-import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { EffectCoverflow, Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const HistorySlider = () => {
 
   return (
-  <div id="purp-back" className="container">
-    <MDBCarousel showControls>
-      <MDBCarouselItem itemId={1}>
-        <img src={Retro} className='d-block w-100 img-fluid' alt='...'  style={{height:"90vh", objectFit:"cover"}}/>
-      </MDBCarouselItem>
-      <MDBCarouselItem itemId={2}>
-        <img src={Retro2} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
-      </MDBCarouselItem>
-      <MDBCarouselItem itemId={3}>
-        <img src={Retro3} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
-      </MDBCarouselItem>
-       <MDBCarouselItem itemId={4}>
-        <img src={Retro4} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
-      </MDBCarouselItem>
-       <MDBCarouselItem itemId={5}>
-        <img src={Retro5} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
-      </MDBCarouselItem>
-       <MDBCarouselItem itemId={6}>
-        <img src={Retro6} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
-      </MDBCarouselItem>
-       <MDBCarouselItem itemId={7}>
-        <img src={Retro7} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
-      </MDBCarouselItem>
-       <MDBCarouselItem itemId={8}>
-        <img src={Final} className='d-block w-100 img-fluid' alt='...' style={{height:"90vh", objectFit:"cover"}}/>
-      </MDBCarouselItem>
-    </MDBCarousel>
+  <div id="purp-back" className="container-fluid">
+    <div className="d-flex justify-content-center align-items-center">
+    <Swiper
+    effect={'coverflow'}
+    grabCursor={true}
+    slideShadow={false}
+    centeredSlides={true}
+    loop={true}
+    slidesPerView={'4'}
+    autoplay={{
+        delay: 5000,
+
+    }}
+    coverflowEffect={
+        {
+            rotate: 0,
+            stretch: -400,
+            depth: 400,
+            modifier: 0.5,
+        }
+    }
+
+    modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
+    className="swiper_container">
+        <SwiperSlide>
+            <img src={Retro} alt="" id="test" className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={Retro2} alt="" id="test"className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={Retro3} alt="" id="test"className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={Retro4} alt="" id="test"className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={Retro5} alt="" id="test" className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={Retro6} alt="" id="test" className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={Retro7} alt="" id="test" className="img-fluid"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={Final} alt="" id="test"className="img-fluid"/>
+        </SwiperSlide>
+    </Swiper>
+    </div>
   </div>
   );
 };
