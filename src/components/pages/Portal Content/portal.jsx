@@ -1,5 +1,5 @@
 import React from "react";
-
+import Test from "./Test";
 import Footer from "../../footer";
 import MenList from "./MenList";
 import PortalSlider from "./PortalSlider";
@@ -13,8 +13,7 @@ function Portal() {
   return (
     <>
     <PortalSlider/>
-    <MenList/>
-    <WomenList/>
+    <Test/>
     <Footer/>
     </>
   );
