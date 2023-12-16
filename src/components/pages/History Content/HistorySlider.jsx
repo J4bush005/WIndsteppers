@@ -24,8 +24,8 @@ const HistorySlider = () => {
     <Swiper
     effect={'coverflow'}
     grabCursor={true}
-    slideShadow={false}
-    centeredSlides={true}
+    slideShadow={'false'}
+    centeredSlides={'true'}
     loop={true}
     slidesPerView={'4'}
     autoplay={{
@@ -35,9 +35,9 @@ const HistorySlider = () => {
     coverflowEffect={
         {
             rotate: 0,
-            stretch: -400,
-            depth: 400,
-            modifier: 0.5,
+            stretch: 0,
+            depth: 100,
+            modifier: 2.5,
         }
     }
 

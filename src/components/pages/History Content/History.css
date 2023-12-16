@@ -13,8 +13,8 @@
   }
 
   #test{
-    
     height: 40vh;
+    max-width: 700px;
     object-fit: cover;
    }
 
@@ -56,3 +56,19 @@
     text-shadow: 1px 1px 2px rgb(144, 24, 255);
     font-family: 'Times New Roman', Times, serif;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+ #test{
+  height: 15vh;
+  max-width: 800px;
+  object-fit: cover;
+ }
+}
+
+@media screen and (max-width: 767px) {
+  #test{
+    height: 15vh;
+    max-width: 800px;
+    object-fit: cover;
+   }
+}
