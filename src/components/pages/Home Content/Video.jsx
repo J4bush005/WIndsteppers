@@ -14,7 +14,7 @@ function Video() {
       <Media query="(max-width: 767px)">
         <div className="row">
           <div className="col-md-5 col-sm-12 col-xs-12">
-            <div id="words-home" className="h4 ">
+            <div id="words-home" className="fs-4 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -47,7 +47,7 @@ function Video() {
             </div>
           </div>
           <div className="col-md-7 col-sm-12 col-xs-12">
-            <div id="words-home" className="h4">
+            <div id="words-home" className="fs-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

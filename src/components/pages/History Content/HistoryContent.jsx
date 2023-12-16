@@ -10,7 +10,7 @@ function HistoryContent() {
           Our History
         </h1>
         <div className="row d-flex justify-content-center mb-5">
-          <div id="words" className="col-12 d-flex justify-content-center h4">
+          <div id="words" className="col-12 d-flex justify-content-center fs-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -27,7 +27,7 @@ function HistoryContent() {
           <h1 id="championss" className="display-1">
             Ecclesiastes 9:11
           </h1>
-          <div id="words">
+          <div id="words" className="fs-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -41,7 +41,7 @@ function HistoryContent() {
           <h1 id="championss" className="display-1">
             No Excuses
           </h1>
-          <div id="words">
+          <div id="words" className=" fs-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

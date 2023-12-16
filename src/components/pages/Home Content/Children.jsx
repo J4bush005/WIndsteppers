@@ -8,7 +8,7 @@ function Children() {
       <Media query="(max-width: 767px)">
         <div className="row">
           <div className="col-md-4 col-sm-12 col-xs-12" id="">
-            <div className=" h3 d-flex" id="wordss">
+            <div className=" fs-4 d-flex" id="wordss">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -29,7 +29,7 @@ function Children() {
             <img src={Childrens} alt="" className="img-fluid mb-3" />
           </div>
           <div className="col-md-8 col-sm-12 col-xs-12">
-            <div className=" h3 d-flex" id="wordss">
+            <div className=" fs-4 d-flex" id="wordss">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
