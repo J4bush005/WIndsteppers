@@ -31,13 +31,13 @@ function AthleteCard({ image, name, events }) {
 function AthleteDisplay() {
     const athletes = [
         { image: Athlete1, name: 'Athlete 1', events: '' },
-        { image: Athlete2, name: 'Athlete 2', events: '' },
-        { image: Athlete5, name: 'Athlete 5', events: '' },
+        { image: Athlete2, name: 'Thomas Buckman', events: '' },
+        { image: Athlete5, name: 'Tashaun Turk', events: '' },
         { image: Athlete7, name: 'Athlete 7', events: '' },
         { image: Athlete8, name: 'Athlete 8', events: '' },
         { image: Athlete9, name: 'Athlete 9', events: '' },
-        { image: Athlete10, name: 'Athlete 10', events: '' },
-        { image: Athlete12, name: 'Athlete 12', events: '' },
+        { image: Athlete10, name: 'Nosaj Booker', events: '' },
+        { image: Athlete12, name: 'Jamison Forbush', events: '' },
         { image: Athlete13, name: 'Athlete 13', events: '' },
         { image: Athlete14, name: 'Athlete 14', events: '' },
         { image: Athlete15, name: 'Athlete 15', events: '' },
