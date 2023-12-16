@@ -16,13 +16,20 @@ import Athlete15 from "../../../Athletes/Athlete 15.webp";
 
 // ... import other athlete images
 
+import { useState, useRef } from 'react';
+
 function AthleteCard({ image, name, events }) {
     return (
-        <div className="card">
-            <img src={image} className="card-img-top" alt={name} />
+        <div className="card athlete-card">
+            <img
+                src={image}
+                className="card-img-top athlete-image"
+                alt={name}
+                style={{ height: "500px", objectFit: "cover" }}
+            />
             <div className="card-body">
                 <h5 className="card-title">{name}</h5>
-                <p className="card-text">Events:{events}</p>
+                <p className="card-text">Events: {events}</p>
             </div>
         </div>
     );
@@ -43,11 +50,37 @@ function AthleteDisplay() {
         { image: Athlete15, name: 'Athlete 15', events: '' },
     ];
 
+    const [searchTerm, setSearchTerm] = useState('');
+    const searchInputRef = useRef(null);
+
+    const handleSearch = () => {
+        const searchValue = searchInputRef.current.value;
+        setSearchTerm(searchValue);
+        scrollToAthlete(searchValue);
+    };
+
+    const scrollToAthlete = (athleteName) => {
+        const athleteElement = document.getElementById(athleteName);
+        if (athleteElement) {
+            athleteElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <div className="container">
             <div className="row">
+                <div className="col-md-12">
+                    <input
+                        type="text"
+                        placeholder="Search athlete..."
+                        ref={searchInputRef}
+                    />
+                    <button onClick={handleSearch}>Search</button>
+                </div>
+            </div>
+            <div className="row">
                 {athletes.map((athlete, index) => (
-                    <div className="col-md-4" key={index}>
+                    <div className="col-md-4" key={index} id={athlete.name}>
                         <AthleteCard {...athlete} />
                     </div>
                 ))}
