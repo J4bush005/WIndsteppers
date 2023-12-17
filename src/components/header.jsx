@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../Photos/Updated Windsteppers-Logo.webp";
 import Carts from "../Photos/shopping-cart.webp";
-import Cart from "../components/pages/Store Content/Cart";
+import Cart from "./pages/Store Content/Cart";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -79,6 +79,16 @@ function Header() {
                 role="button"
               >
                 Events/Calendar
+              </Link>
+            </li>
+                <li className="nav-item mx-3">
+              <Link
+                to="/Store"
+                id="lists"
+                className="nav-link"
+                role="button"
+              >
+                Team Store
               </Link>
             </li>
             <li id="cart" className="nav-item dropdown mx-3">
