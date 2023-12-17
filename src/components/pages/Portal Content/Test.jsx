@@ -8,7 +8,11 @@ import Athlete7 from "../../../Athletes/Athlete 7.webp";
 import Athlete8 from "../../../Athletes/Athlete 8.webp";
 import Athlete9 from "../../../Athletes/Athlete 9.webp";
 import Athlete10 from "../../../Athletes/Athlete 10.webp";
-
+import Athlete3 from "../../../Athletes/Athlete 3.5.webp";
+import Athlete4 from "../../../Athletes/Athlete 4.webp";
+import Athlete6 from "../../../Athletes/Athlete 6.webp";
+import Athlete11 from "../../../Athletes/Athlete 11.5.webp";
+import Athlete16 from "../../../Athletes/Athlete 16.webp";
 import Athlete12 from "../../../Athletes/Athlete 12.webp";
 import Athlete13 from "../../../Athletes/Athlete 13.webp";
 import Athlete14 from "../../../Athletes/Athlete 14.webp";
@@ -72,58 +76,91 @@ function AthleteCard({
       ) : (
         <div className="card athlete-stats">
           <div className="card-body">
-            <h5 id="stats" className="card-title display-3 d-flex justify-content-center">
+            <h5
+              id="stats"
+              className="card-title display-3 d-flex justify-content-center"
+            >
               Stats:
             </h5>
             <div className="row  mt-3">
-              <p id="events" className="card-text h1">E{event1}</p>
+              <p id="events" className="card-text h1">
+                E{event1}
+              </p>
             </div>
             <div className="row">
               <div className="col-12">
-                <p id="personal-stats" className="card-text">Best: {best1}</p>
+                <p id="personal-stats" className="card-text">
+                  Best: {best1}
+                </p>
               </div>
               <div className="col-12">
-                <p id="personal-stats" className="card-text">First: {first1}</p>
+                <p id="personal-stats" className="card-text">
+                  First: {first1}
+                </p>
               </div>
               <div className="col-12">
-                <p id="personal-stats" className="card-text">Second: {second1}</p>
+                <p id="personal-stats" className="card-text">
+                  Second: {second1}
+                </p>
               </div>
               <div className="col-12">
-                <p id="personal-stats" className="card-text">Third: {third1}</p>
+                <p id="personal-stats" className="card-text">
+                  Third: {third1}
+                </p>
               </div>
             </div>
             <div className="row  mt-3">
-              <p id="events" className="card-text h1">E{event2}</p>
+              <p id="events" className="card-text h1">
+                E{event2}
+              </p>
             </div>
             <div className="row">
               <div className="col-12">
-                <p id="personal-stats" className="card-text">Best: {best2}</p>
+                <p id="personal-stats" className="card-text">
+                  Best: {best2}
+                </p>
               </div>
               <div className="col-12">
-                <p id="personal-stats" className="card-text">First: {first2}</p>
+                <p id="personal-stats" className="card-text">
+                  First: {first2}
+                </p>
               </div>
               <div className="col-12">
-                <p id="personal-stats" className="card-text">Second: {second2}</p>
+                <p id="personal-stats" className="card-text">
+                  Second: {second2}
+                </p>
               </div>
               <div className="col-12">
-                <p id="personal-stats" className="card-text">Third: {third2}</p>
+                <p id="personal-stats" className="card-text">
+                  Third: {third2}
+                </p>
               </div>
             </div>
             <div className="row  mt-3">
-              <p id="events" className="card-text h1">E{event3}</p>
+              <p id="events" className="card-text h1">
+                E{event3}
+              </p>
             </div>
             <div className="row">
               <div className="col-12">
-                <p id="personal-stats" className="card-text">Best: {best3}</p>
+                <p id="personal-stats" className="card-text">
+                  Best: {best3}
+                </p>
               </div>
               <div className="col-12">
-                <p id="personal-stats" className="card-text">First: {first3}</p>
+                <p id="personal-stats" className="card-text">
+                  First: {first3}
+                </p>
               </div>
               <div className="col-12">
-                <p id="personal-stats" className="card-text">Second: {second3}</p>
+                <p id="personal-stats" className="card-text">
+                  Second: {second3}
+                </p>
               </div>
               <div className="col-12">
-                <p id="personal-stats" className="card-text">Third: {third3}</p>
+                <p id="personal-stats" className="card-text">
+                  Third: {third3}
+                </p>
               </div>
             </div>
           </div>
@@ -134,7 +171,7 @@ function AthleteCard({
 }
 
 function AthleteDisplay() {
-  const athletes = [
+  const menAthletes = [
     {
       image: Athlete1,
       name: "Athlete 1",
@@ -368,6 +405,113 @@ function AthleteDisplay() {
     },
   ];
 
+  const womenAthletes = [{
+      image: Athlete3,
+      name: "Athlete 3",
+      age: 20,
+      events: "",
+      event1: 1,
+      event2: 2,
+      event3: 3,
+      best1: "1:00",
+      first1: "1:00",
+      second1: "1:00",
+      third1: "1:00",
+      best2: "1:00",
+      first2: "1:00",
+      second2: "1:00",
+      third2: "1:00",
+      best3: "1:00",
+      first3: "1:00",
+      second3: "1:00",
+      third3: "1:00",
+    },
+    {
+      image: Athlete4,
+      name: "Athlete 4",
+      age: 20,
+      events: "",
+      event1: 1,
+      event2: 2,
+      event3: 3,
+      best1: "1:00",
+      first1: "1:00",
+      second1: "1:00",
+      third1: "1:00",
+      best2: "1:00",
+      first2: "1:00",
+      second2: "1:00",
+      third2: "1:00",
+      best3: "1:00",
+      first3: "1:00",
+      second3: "1:00",
+      third3: "1:00",
+    },
+    {
+      image: Athlete6,
+      name: "Athlete 6",
+      age: 20,
+      events: "",
+      event1: 1,
+      event2: 2,
+      event3: 3,
+      best1: "1:00",
+      first1: "1:00",
+      second1: "1:00",
+      third1: "1:00",
+      best2: "1:00",
+      first2: "1:00",
+      second2: "1:00",
+      third2: "1:00",
+      best3: "1:00",
+      first3: "1:00",
+      second3: "1:00",
+      third3: "1:00",
+    },
+    {
+      image: Athlete11,
+      name: "Athlete 11",
+      age: 20,
+      events: "",
+      event1: 1,
+      event2: 2,
+      event3: 3,
+      best1: "1:00",
+      first1: "1:00",
+      second1: "1:00",
+      third1: "1:00",
+      best2: "1:00",
+      first2: "1:00",
+      second2: "1:00",
+      third2: "1:00",
+      best3: "1:00",
+      first3: "1:00",
+      second3: "1:00",
+      third3: "1:00",
+    },
+    {
+      image: Athlete16,
+      name: "Athlete 16",
+      age: 20,
+      events: "",
+      event1: 1,
+      event2: 2,
+      event3: 3,
+      best1: "1:00",
+      first1: "1:00",
+      second1: "1:00",
+      third1: "1:00",
+      best2: "1:00",
+      first2: "1:00",
+      second2: "1:00",
+      third2: "1:00",
+      best3: "1:00",
+      first3: "1:00",
+      second3: "1:00",
+      third3: "1:00",
+    },
+    ];
+
   const [searchTerm, setSearchTerm] = useState("");
   const searchInputRef = useRef(null);
 
@@ -385,25 +529,59 @@ function AthleteDisplay() {
   };
 
   return (
+    <>
     <div className="container">
       <div className="row">
-        <div className="col-md-12">
-          <input
-            type="text"
-            placeholder="Search athlete..."
-            ref={searchInputRef}
-          />
-          <button onClick={handleSearch}>Search</button>
+        <div className="col-lg-12 col-md-12">
+          {" "}
+          <h1 className="display-2" id="championsss">
+            Mens Roster:
+          </h1>
+        </div>
+        <div className="col-lg-6 col-md-6">
+            <div className="input-group">
+                <input
+                    className="form-control"
+                    type="text"
+                    placeholder="Search athlete..."
+                    ref={searchInputRef}
+                    
+                />
+                <div className="input-group-append">
+                    <button className="btn" onClick={handleSearch}>
+                        Search
+                    </button>
+                </div>
+            </div>
         </div>
       </div>
       <div className="row">
-        {athletes.map((athlete, index) => (
+        {menAthletes.map((athlete, index) => (
+          <div className="col-lg-3 col-md-4" key={index} id={athlete.name}>
+            <AthleteCard {...athlete} />
+          </div>
+        ))}
+      </div>
+            <div className="row">
+        <div className="col-lg-12 col-md-12">
+          {" "}
+          <h1 className="display-2" id="championsss">
+            Womens Roster:
+          </h1>
+        </div>
+      </div>
+      <div className="row">
+        {womenAthletes.map((athlete, index) => (
           <div className="col-lg-3 col-md-4" key={index} id={athlete.name}>
             <AthleteCard {...athlete} />
           </div>
         ))}
       </div>
     </div>
+    <div className="container">
+
+    </div>
+    </>
   );
 }
 
