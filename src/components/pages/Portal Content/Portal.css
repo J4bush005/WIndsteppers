@@ -8,17 +8,10 @@
     font-size: 0.8vw
   }
   
-  .content{
-    top: 0;
-    left: 0;
-    position: absolute;
+  .athlete-stats{
+
     background: linear-gradient(to bottom, rgb(144,24,255), gray);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
+ 
     border-radius: 1%;
   }
   
