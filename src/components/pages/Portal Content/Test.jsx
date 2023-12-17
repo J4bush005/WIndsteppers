@@ -72,58 +72,58 @@ function AthleteCard({
       ) : (
         <div className="card athlete-stats">
           <div className="card-body">
-            <h5 className="card-title display-3 d-flex justify-content-center">
+            <h5 id="stats" className="card-title display-3 d-flex justify-content-center">
               Stats:
             </h5>
             <div className="row  mt-3">
-              <p className="card-text h1">E{event1}</p>
+              <p id="events" className="card-text h1">E{event1}</p>
             </div>
             <div className="row">
               <div className="col-12">
-                <p className="card-text">Best: {best1}</p>
+                <p id="personal-stats" className="card-text">Best: {best1}</p>
               </div>
               <div className="col-12">
-                <p className="card-text">First: {first1}</p>
+                <p id="personal-stats" className="card-text">First: {first1}</p>
               </div>
               <div className="col-12">
-                <p className="card-text">Second: {second1}</p>
+                <p id="personal-stats" className="card-text">Second: {second1}</p>
               </div>
               <div className="col-12">
-                <p className="card-text">Third: {third1}</p>
+                <p id="personal-stats" className="card-text">Third: {third1}</p>
               </div>
             </div>
             <div className="row  mt-3">
-              <p className="card-text h1">E{event2}</p>
+              <p id="events" className="card-text h1">E{event2}</p>
             </div>
             <div className="row">
               <div className="col-12">
-                <p className="card-text">Best: {best2}</p>
+                <p id="personal-stats" className="card-text">Best: {best2}</p>
               </div>
               <div className="col-12">
-                <p className="card-text">First: {first2}</p>
+                <p id="personal-stats" className="card-text">First: {first2}</p>
               </div>
               <div className="col-12">
-                <p className="card-text">Second: {second2}</p>
+                <p id="personal-stats" className="card-text">Second: {second2}</p>
               </div>
               <div className="col-12">
-                <p className="card-text">Third: {third2}</p>
+                <p id="personal-stats" className="card-text">Third: {third2}</p>
               </div>
             </div>
             <div className="row  mt-3">
-              <p className="card-text h1">E{event3}</p>
+              <p id="events" className="card-text h1">E{event3}</p>
             </div>
             <div className="row">
               <div className="col-12">
-                <p className="card-text">Best: {best3}</p>
+                <p id="personal-stats" className="card-text">Best: {best3}</p>
               </div>
               <div className="col-12">
-                <p className="card-text">First: {first3}</p>
+                <p id="personal-stats" className="card-text">First: {first3}</p>
               </div>
               <div className="col-12">
-                <p className="card-text">Second: {second3}</p>
+                <p id="personal-stats" className="card-text">Second: {second3}</p>
               </div>
               <div className="col-12">
-                <p className="card-text">Third: {third3}</p>
+                <p id="personal-stats" className="card-text">Third: {third3}</p>
               </div>
             </div>
           </div>
