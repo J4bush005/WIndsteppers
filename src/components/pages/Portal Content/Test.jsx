@@ -578,9 +578,6 @@ function AthleteDisplay() {
         ))}
       </div>
     </div>
-    <div className="container">
-
-    </div>
     </>
   );
 }
