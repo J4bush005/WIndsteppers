@@ -2,6 +2,13 @@ div{
   font-family: 'Times New Roman', Times, serif;
 }
 
+.cart{
+  position: absolute;
+  right: 35px;
+  top: 100px;
+  z-index: 999;
+  background-color: white;
+}
   #background{
     background-color: rgb(246,246,246);
   }

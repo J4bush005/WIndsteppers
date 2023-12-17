@@ -11,7 +11,7 @@ function ProductPage() {
     "https://images.pexels.com/photos/12179283/pexels-photo-12179283.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
   ];
   return (
-    <div id="background" className="container-fluid">
+    <div id="background" className="">
       <Header />
       <div className="row d-flex justify-content-evenly">
         <div id="left-pics" className="col">

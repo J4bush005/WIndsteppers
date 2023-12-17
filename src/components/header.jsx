@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../Photos/Updated Windsteppers-Logo.webp";
-import Cart from "../Photos/shopping-cart.webp";
+import Carts from "../Photos/shopping-cart.webp";
+import Cart from "../components/pages/Store Content/Cart";
 import { Link } from "react-router-dom";
 
-function header() {
+function Header() {
+  const [show, setShow] = useState(false);
+
    return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
@@ -79,20 +82,21 @@ function header() {
               </Link>
             </li>
             <li id="cart" className="nav-item dropdown mx-3">
-              <Link
-                to="/Services"
+              <div
                 id="sub"
                 className="nav-link"
                 role="button"
+                onClick={() => setShow(!show)}
               >
-                <img src={Cart} alt="" className="img-fluid" />
-              </Link>
+                <img src={Carts} alt="" className="img-fluid" />
+             </div>
             </li>
           </ul>
         </div>
       </div>
+      {show && <Cart/>}
     </nav>
   );
 }
 
-export default header;
+export default Header;
