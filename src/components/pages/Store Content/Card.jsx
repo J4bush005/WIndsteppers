@@ -7,14 +7,17 @@ const Card = ({ item }) => {
         <div className="col d-flex justify-content-center">
           <div id="product-card" className="card">
             <img
-              src={item.img}
+              src={
+                process.env.REACT_APP_UPLOAD_URL +
+                item.attributes.Image.data.attributes.url
+              }
               alt=""
               className="img-fluid"
               style={{ width: "400px" }}
             />
             <div id="card-body" className="card-body">
-            <h2 className="card-title">{item.title}</h2>
-            <h3>${item.price}</h3>
+              <h2 className="card-title">{item?.attributes.Title}</h2>
+              <h3>${item?.attributes.Price}</h3>
             </div>
           </div>
         </div>
