@@ -16,26 +16,14 @@ function Home() {
 
   return (
     <>
-      <Media query="(max-width: 768px)">
         <div id="container">
-          <div id="full-image">
-            <Opensm />
-          </div>
-          <motion.div style={{ y: backgroundY }}>
-            <Content />
-          </motion.div>
-        </div>
-      </Media>
-      <Media query="(min-width: 769px)">
-        <div id="container">
-          <div id="full-image">
+          <div id="">
             <Open />
           </div>
           <motion.div style={{ y: backgroundY }}>
             <Content />
           </motion.div>
         </div>
-      </Media>
     </>
   );
 }
