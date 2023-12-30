@@ -76,6 +76,9 @@
   align-items: center;
 }
 
+#container{
+  height: 2px;
+}
 
 
 #open-section {
