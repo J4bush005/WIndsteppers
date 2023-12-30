@@ -7,10 +7,10 @@ function Open() {
     target: ref,
     offset: ["start start", "end start"],
   });
-  const moveUp = useTransform(scrollYProgress, [0, 1], ["0%", "0%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-0%"]);
-  const moveHeader = useTransform(scrollYProgress, [0, 1], ["0%", "0%"]);
-  const moveScripture = useTransform(scrollYProgress, [0, 1], ["0%", "0%"]);
+  const moveUp = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
+  const moveHeader = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
+  const moveScripture = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
   return (
     
     <motion.div

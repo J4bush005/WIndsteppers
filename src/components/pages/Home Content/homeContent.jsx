@@ -13,7 +13,7 @@ function HomeContent() {
     target: ref,
     offset: ["start start", "end start"],
   });
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "0%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "-5%"]);
   return (
     <div id="building">
       <section>
