@@ -73,7 +73,7 @@
 }
 
 @keyframes animate {
-  0% {
+  0%, 100% {
     background-image: url("../../../Photos/Jump\ Squad.webp");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -113,14 +113,5 @@
     background-position: center;
     background-attachment: scroll;
   }
-  100% {
-    background-image: url("../../../Photos/Opening-Picture.webp");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-  }
+
 }
