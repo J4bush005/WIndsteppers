@@ -3,6 +3,7 @@ import Header from "../../header";
 import Paragraph from "./Paragraph";
 import Collage from "./Collage";
 import "./coaches.css";
+import Footer from "../../footer";
 
 function Coaches() {
   return (
@@ -10,6 +11,7 @@ function Coaches() {
       <Header />
       <Paragraph/>
       <Collage/>
+      <Footer/>
     </div>
   );
 }
