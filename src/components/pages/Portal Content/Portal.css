@@ -22,7 +22,6 @@
 
 
 #random{
-    background-image: url('../../../Photos/Opening-Picture.webp');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,7 +29,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    z-index: -10;
+
     transition: 5s;
     animation: animate;
     animation-direction: alternate-reverse;
