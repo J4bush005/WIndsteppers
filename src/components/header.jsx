@@ -50,7 +50,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/Contact"
+                    to="/Coaches"
                     className="nav-link under"
                     role="button"
                     aria-expanded="false"
