@@ -7,9 +7,45 @@ import Coaches5 from "../../../Photos/Coaches 5.jpeg";
 import Coaches6 from "../../../Photos/Coaches 6.jpeg";
 import Coaches7 from "../../../Photos/Coaches 7.jpg";
 import Coaches8 from "../../../Photos/Coaches 8.jpg";
+import Media from "react-media";
 
 function Collage() {
   return (
+    <>
+    <Media query="(max-width: 767px)">
+        <div id="border">
+      <div className="d-flex">
+        <div className="col-lg-3 col-4">
+          <img src={Coach} alt="" className="img-fluid" style={{ height: "200px", objectFit: "cover" }}/>
+        </div>
+          <div className="col-lg-3 col-4">
+          <img src={Coaches2} alt="" className="img-fluid" style={{  height: "200px", objectFit: "cover" }}/>
+        </div>
+          <div className="col-lg-3 col-4">
+          <img src={Coaches3} alt="" className="img-fluid" style={{  height: "200px", objectFit: "cover" }}/>
+        </div>
+          <div className="col-lg-3 col-4">
+          <img src={Coaches4} alt="" className="img-fluid" style={{  height: "200px", objectFit: "cover" }}/>
+        </div>
+      </div>
+      <div className="d-flex">
+      <div className="col-lg-3 col-4">
+      <img src={Coaches5} alt="" className="img-fluid" style={{ height: "150px", objectFit: "cover" }}/>
+      </div>
+          <div className="col-lg-3 col-4">
+      <img src={Coaches6} alt="" className="img-fluid" style={{height: "150px", objectFit: "cover" }}/>
+      </div>
+          <div className="col-lg-3 col-4">
+      <img src={Coaches7} alt="" className="img-fluid" style={{ height: "150px", objectFit: "cover" }}/>
+      </div>
+          <div className="col-lg-3 col-4">
+      <img src={Coaches8} alt="" className="img-fluid" style={{ height: "150px", objectFit: "cover" }}/>
+      </div>
+      </div>
+    </div>
+    </Media>
+
+    <Media query="(min-width: 768px)">
     <div id="border">
       <div className="d-flex">
         <div className="col-lg-3 col-4">
@@ -40,6 +76,8 @@ function Collage() {
       </div>
       </div>
     </div>
+    </Media>
+    </>
   );
 }
 export default Collage;
