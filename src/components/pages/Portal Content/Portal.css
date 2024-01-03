@@ -28,7 +28,7 @@
   background-position: center;
   background-attachment: scroll;
   transition: 5s;
-  animation: animate;
+  animation: animate 5s infinite;
   animation-direction: alternate-reverse;
   animation-play-state: running;
   animation-timing-function: ease-in-out;
