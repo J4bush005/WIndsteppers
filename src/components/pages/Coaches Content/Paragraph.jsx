@@ -16,13 +16,15 @@ function Paragraph() {
               id="words"
               className="col-12 d-flex justify-content-center fs-4"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Our dedicated coaching team at Windsteppers Track Club goes beyond
+              the role of instructors, serving as mentors for our young
+              athletes. Committed to fostering both athletic and personal
+              development, our coaches guide and support the kids on their
+              journey to maturity. With a focus on not only shaping them as
+              skilled athletes but also as individuals, our coaching staff plays
+              a crucial role in instilling values, discipline, and a sense of
+              community within each athlete, ensuring they thrive both on and
+              off the track.
             </div>
           </div>
         </div>
