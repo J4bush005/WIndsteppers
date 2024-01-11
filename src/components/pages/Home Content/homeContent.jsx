@@ -34,7 +34,7 @@ function HomeContent() {
                 style={{ textY }}
               >
                 <h1 id="champions" className="display-1">
-                  Building Champions
+                Building Champions
                 </h1>
               </motion.div>
             </div>
