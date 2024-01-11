@@ -15,13 +15,18 @@ function Video() {
         <div className="row">
           <div className="col-md-5 col-sm-12 col-xs-12">
             <div id="words-home" className="fs-4 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              For over 30 years, Windsteppers Track Club has been a breeding
+              ground for champions, consistently producing national titleholders
+              in various disciplines, from racewalk and sprints to throws,
+              jumps, and even pole vault. Our program is meticulously crafted
+              with the singular goal of fostering champions, not only on the
+              track but also in life. Whether nurturing the potential of
+              children or teenagers, our legacy is defined by the numerous boys
+              and girls who have ascended to national champion status under our
+              guidance. At the Windstepper family, the pursuit of excellence is woven into
+              the fabric of our program, instilling values that extend far
+              beyond the athletic arena, shaping individuals who are champions
+              both on and off the track.
             </div>
           </div>
           <div className="col-md-7 col-sm-12 col-xs-12">
@@ -48,13 +53,18 @@ function Video() {
           </div>
           <div className="col-md-7 col-sm-12 col-xs-12">
             <div id="words-home" className="fs-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              For over 30 years, Windsteppers Track Club has been a breeding
+              ground for champions, consistently producing national titleholders
+              in various disciplines, from racewalk and sprints to throws,
+              jumps, and even pole vault. Our program is meticulously crafted
+              with the singular goal of fostering champions, not only on the
+              track but also in life. Whether nurturing the potential of
+              children or teenagers, our legacy is defined by the numerous boys
+              and girls who have ascended to national champion status under our
+              guidance. At the Windstepper family, the pursuit of excellence is woven into
+              the fabric of our program, instilling values that extend far
+              beyond the athletic arena, shaping individuals who are champions
+              both on and off the track.
             </div>
           </div>
         </div>
