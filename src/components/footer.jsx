@@ -13,6 +13,7 @@ function Footer() {
         <div class="container">
           <section class="mt-5">
             <div class="row text-center d-flex justify-content-center">
+            {/** 
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
                   <a href="/Store" class="foot-hover h6">
@@ -20,7 +21,7 @@ function Footer() {
                   </a>
                 </h6>
               </div>
-  
+  */}
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
                 <a href="/Portal" class="foot-hover h6">

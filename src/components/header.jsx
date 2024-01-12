@@ -27,6 +27,7 @@ function Header() {
         <div className="head collapse navbar-collapse" id="navbarNavDropdown">
           <ul  className="navbar-nav ms-auto d-flex">
             <li className="nav-item dropdown last mx-3">
+            {/** 
               <Link
                 to="/Contact"
                 id="lists"
@@ -59,6 +60,30 @@ function Header() {
                   </Link>
                 </li>
               </ul>
+               */}
+            </li>
+           
+              <li className="nav-item dropdown mx-3">
+              <Link
+                to="/History"
+                id="lists"
+                className="nav-link"
+                role="button"
+              >
+                Our History
+              </Link>
+             
+            </li>
+              <li className="nav-item dropdown mx-3">
+              <Link
+                to="/Coaches"
+                id="lists"
+                className="nav-link"
+                role="button"
+              >
+                Coaches
+              </Link>
+             
             </li>
             <li className="nav-item dropdown mx-3">
               <Link
@@ -81,6 +106,7 @@ function Header() {
                 Events/Calendar
               </Link>
             </li>
+            {/** 
                 <li className="nav-item mx-3">
               <Link
                 to="/Store"
@@ -101,6 +127,7 @@ function Header() {
                 <img src={Carts} alt="" className="img-fluid" />
              </div>
             </li>
+            */}
           </ul>
         </div>
       </div>

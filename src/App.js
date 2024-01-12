@@ -4,6 +4,7 @@ import History from "./components/pages/History Content/History"
 import Portal from './components/pages/Portal Content/portal';
 import Store from './components/pages/Store Content/Store';
 import ProductPage from './components/pages/Store Content/ProductPage';
+import Form from './components/pages/Home Content/Form'
 import Coaches from './components/pages/Coaches Content/coaches';
 
 function App() {
@@ -14,8 +15,7 @@ function App() {
       <Route path='/History' element={<History/>}/>
       <Route path = '/Portal' element={<Portal/>}/>
       <Route path = '/Coaches' element={<Coaches/>}/>
-      <Route path = '/Store' element={<Store/>}/>
-      <Route path = '/Page' element={<ProductPage/>}/>
+      <Route path = '/Membership' element={<Form/>}/>
     </Routes>
     </>
   );
