@@ -31,17 +31,8 @@ function AthleteCard({
   event2,
   event3,
   best1,
-  first1,
-  second1,
-  third1,
   best2,
-  first2,
-  second2,
-  third2,
   best3,
-  first3,
-  second3,
-  third3,
 }) {
   const [showStats, setShowStats] = useState(false);
 
@@ -93,21 +84,6 @@ function AthleteCard({
                   Best: {best1}
                 </p>
               </div>
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  First: {first1}
-                </p>
-              </div>
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  Second: {second1}
-                </p>
-              </div>
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  Third: {third1}
-                </p>
-              </div>
             </div>
             <div className="row  mt-3">
               <p id="events" className="card-text h1">
@@ -120,21 +96,6 @@ function AthleteCard({
                   Best: {best2}
                 </p>
               </div>
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  First: {first2}
-                </p>
-              </div>
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  Second: {second2}
-                </p>
-              </div>
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  Third: {third2}
-                </p>
-              </div>
             </div>
             <div className="row  mt-3">
               <p id="events" className="card-text h1">
@@ -145,21 +106,6 @@ function AthleteCard({
               <div className="col-12">
                 <p id="personal-stats" className="card-text">
                   Best: {best3}
-                </p>
-              </div>
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  First: {first3}
-                </p>
-              </div>
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  Second: {second3}
-                </p>
-              </div>
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  Third: {third3}
                 </p>
               </div>
             </div>
