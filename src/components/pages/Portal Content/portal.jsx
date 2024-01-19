@@ -12,7 +12,6 @@ function Portal() {
 
   return (
     <>
-    <PortalSlider/>
     <Test/>
     <Footer/>
     </>

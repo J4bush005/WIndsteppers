@@ -512,21 +512,6 @@ function AthleteDisplay() {
     },
     ];
 
-  const [searchTerm, setSearchTerm] = useState("");
-  const searchInputRef = useRef(null);
-
-  const handleSearch = () => {
-    const searchValue = searchInputRef.current.value;
-    setSearchTerm(searchValue);
-    scrollToAthlete(searchValue);
-  };
-
-  const scrollToAthlete = (athleteName) => {
-    const athleteElement = document.getElementById(athleteName);
-    if (athleteElement) {
-      athleteElement.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <>
@@ -537,22 +522,6 @@ function AthleteDisplay() {
           <h1 className="display-2" id="championsss">
             Mens Roster:
           </h1>
-        </div>
-        <div className="col-lg-6 col-md-6">
-            <div className="input-group">
-                <input
-                    className="form-control"
-                    type="text"
-                    placeholder="Search athlete..."
-                    ref={searchInputRef}
-                    
-                />
-                <div className="input-group-append">
-                    <button className="btn" onClick={handleSearch}>
-                        Search
-                    </button>
-                </div>
-            </div>
         </div>
       </div>
       <div className="row">
