@@ -1,4 +1,6 @@
 import React from "react";
+import Jamison from "../../../Photos/Jamison Medal.webp";
+import Thomas from "../../../Photos/Thomas Medal.webp";
 import Athlete1 from "../../../Athletes/Athlete 1.webp";
 import Athlete2 from "../../../Athletes/Athlete 2.webp";
 
@@ -52,7 +54,7 @@ function AthleteCard({
             src={image}
             className="card-img-top athlete-image"
             alt={name}
-            style={{ height: "500px", objectFit: "cover" }}
+            style={{ height: "500px", objectFit: "cover", objectPosition: "0% 25%" }}
           />
           <div className="card-body">
             <div className="card-title h5">{name}</div>
@@ -115,7 +117,7 @@ function AthleteCard({
 function AthleteDisplay() {
   const menAthletes = [
     {
-      image: Athlete2,
+      image: Thomas,
       name: "Thomas Buckman",
       age: 13,
       events: "Pole Vault",
@@ -123,7 +125,7 @@ function AthleteDisplay() {
       best1: "1:00",
     },
     {
-      image: Athlete12,
+      image: Jamison,
       name: "Jamison Forbush",
       age: 20,
       events: "",
@@ -160,7 +162,7 @@ function AthleteDisplay() {
       </div>
       <div className="row">
         {menAthletes.map((athlete, index) => (
-          <div className="col-lg-3 col-md-4" key={index} id={athlete.name}>
+          <div className="col-lg-6 col-md-4" key={index} id={athlete.name}>
             <AthleteCard {...athlete} />
           </div>
         ))}
