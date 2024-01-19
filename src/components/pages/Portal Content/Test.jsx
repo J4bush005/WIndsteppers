@@ -1,22 +1,6 @@
 import React from "react";
 import Jamison from "../../../Photos/Jamison Medal.webp";
 import Thomas from "../../../Photos/Thomas Medal.webp";
-import Athlete1 from "../../../Athletes/Athlete 1.webp";
-import Athlete2 from "../../../Athletes/Athlete 2.webp";
-
-import Athlete5 from "../../../Athletes/Athlete 5.webp";
-
-import Athlete7 from "../../../Athletes/Athlete 7.webp";
-import Athlete8 from "../../../Athletes/Athlete 8.webp";
-import Athlete9 from "../../../Athletes/Athlete 9.webp";
-import Athlete10 from "../../../Athletes/Athlete 10.webp";
-
-import Athlete12 from "../../../Athletes/Athlete 12.webp";
-import Athlete13 from "../../../Athletes/Athlete 13.webp";
-import Athlete14 from "../../../Athletes/Athlete 14.webp";
-import Athlete15 from "../../../Athletes/Athlete 15.webp";
-
-// ... import other athlete images
 
 import { useState, useRef } from "react";
 
@@ -25,12 +9,7 @@ function AthleteCard({
   name,
   age,
   events,
-  event1,
-  event2,
-  event3,
-  best1,
-  best2,
-  best3,
+  event1
 }) {
   const [showStats, setShowStats] = useState(false);
 
@@ -59,7 +38,7 @@ function AthleteCard({
           <div className="card-body">
             <div className="card-title h5">{name}</div>
             <div className="card-text">{age} years old</div>
-            <div className="card-text">Events: {events}</div>
+            <div className="card-text">Event: {events}</div>
           </div>
         </>
       ) : (
@@ -71,41 +50,10 @@ function AthleteCard({
             >
               Stats:
             </h5>
-            <div className="row  mt-3">
+            <div className="d-flex mt-3">
               <p id="events" className="card-text h1">
                 {event1}
               </p>
-            </div>
-            <div className="row">
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  Best: {best1}
-                </p>
-              </div>
-            </div>
-            <div className="row  mt-3">
-              <p id="events" className="card-text h1">
-                E{event2}
-              </p>
-            </div>
-            <div className="row">
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  Best: {best2}
-                </p>
-              </div>
-            </div>
-            <div className="row  mt-3">
-              <p id="events" className="card-text h1">
-                E{event3}
-              </p>
-            </div>
-            <div className="row">
-              <div className="col-12">
-                <p id="personal-stats" className="card-text">
-                  Best: {best3}
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -145,9 +93,9 @@ function AthleteDisplay() {
             Our National Champions:
           </h1>
       </div>
-      <div className="row">
+      <div className="d-flex justify-content-evenly">
         {menAthletes.map((athlete, index) => (
-          <div className="col-lg-6 col-md-4" key={index} id={athlete.name}>
+          <div className="col-lg col-md-12" key={index} id={athlete.name}>
             <AthleteCard {...athlete} />
           </div>
         ))}
