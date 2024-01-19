@@ -8,11 +8,7 @@ import Athlete7 from "../../../Athletes/Athlete 7.webp";
 import Athlete8 from "../../../Athletes/Athlete 8.webp";
 import Athlete9 from "../../../Athletes/Athlete 9.webp";
 import Athlete10 from "../../../Athletes/Athlete 10.webp";
-import Athlete3 from "../../../Athletes/Athlete 3.5.webp";
-import Athlete4 from "../../../Athletes/Athlete 4.webp";
-import Athlete6 from "../../../Athletes/Athlete 6.webp";
-import Athlete11 from "../../../Athletes/Athlete 11.5.webp";
-import Athlete16 from "../../../Athletes/Athlete 16.webp";
+
 import Athlete12 from "../../../Athletes/Athlete 12.webp";
 import Athlete13 from "../../../Athletes/Athlete 13.webp";
 import Athlete14 from "../../../Athletes/Athlete 14.webp";
