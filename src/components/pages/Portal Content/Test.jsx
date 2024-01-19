@@ -531,21 +531,6 @@ function AthleteDisplay() {
           </div>
         ))}
       </div>
-            <div className="row">
-        <div className="col-lg-12 col-md-12">
-          {" "}
-          <h1 className="display-2" id="championsss">
-            Womens Roster:
-          </h1>
-        </div>
-      </div>
-      <div className="row">
-        {womenAthletes.map((athlete, index) => (
-          <div className="col-lg-3 col-md-4" key={index} id={athlete.name}>
-            <AthleteCard {...athlete} />
-          </div>
-        ))}
-      </div>
     </div>
     </>
   );
