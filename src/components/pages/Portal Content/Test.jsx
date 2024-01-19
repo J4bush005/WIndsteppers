@@ -84,7 +84,7 @@ function AthleteCard({
             </h5>
             <div className="row  mt-3">
               <p id="events" className="card-text h1">
-                E{event1}
+                {event1}
               </p>
             </div>
             <div className="row">
@@ -196,23 +196,10 @@ function AthleteDisplay() {
     {
       image: Athlete2,
       name: "Thomas Buckman",
-      age: 20,
-      events: "",
-      event1: 1,
-      event2: 2,
-      event3: 3,
+      age: 13,
+      events: "Pole Vault",
+      event1: "Pole Vault",
       best1: "1:00",
-      first1: "1:00",
-      second1: "1:00",
-      third1: "1:00",
-      best2: "1:00",
-      first2: "1:00",
-      second2: "1:00",
-      third2: "1:00",
-      best3: "1:00",
-      first3: "1:00",
-      second3: "1:00",
-      third3: "1:00",
     },
     {
       image: Athlete5,
