@@ -127,23 +127,10 @@ function AthleteDisplay() {
     {
       image: Jamison,
       name: "Jamison Forbush",
-      age: 20,
-      events: "",
-      event1: 1,
-      event2: 2,
-      event3: 3,
+      age: 10,
+      events: "Javelin",
+      event1: "Javelin",
       best1: "1:00",
-      first1: "1:00",
-      second1: "1:00",
-      third1: "1:00",
-      best2: "1:00",
-      first2: "1:00",
-      second2: "1:00",
-      third2: "1:00",
-      best3: "1:00",
-      first3: "1:00",
-      second3: "1:00",
-      third3: "1:00",
     }
   ];
 
@@ -152,13 +139,11 @@ function AthleteDisplay() {
   return (
     <>
     <div className="container">
-      <div className="row">
-        <div className="col-lg-12 col-md-12">
+      <div className="d-flex justify-content-center">
           {" "}
           <h1 className="display-2" id="championsss">
-            Mens Roster:
+            Our National Champions:
           </h1>
-        </div>
       </div>
       <div className="row">
         {menAthletes.map((athlete, index) => (
@@ -173,3 +158,4 @@ function AthleteDisplay() {
 }
 
 export default AthleteDisplay;
+
