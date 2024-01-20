@@ -31,7 +31,7 @@ function Footer() {
               </div>
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                <a href="/About" class="foot-hover h6">
+                <a href="/Events" class="foot-hover h6">
                     Events
                   </a>
                 </h6>

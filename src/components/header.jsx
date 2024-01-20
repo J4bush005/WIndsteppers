@@ -98,7 +98,7 @@ function Header() {
             </li>
             <li className="nav-item mx-3">
               <Link
-                to="/Gallery"
+                to="/Events"
                 id="lists"
                 className="nav-link"
                 role="button"

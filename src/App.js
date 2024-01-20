@@ -6,6 +6,7 @@ import Store from './components/pages/Store Content/Store';
 import ProductPage from './components/pages/Store Content/ProductPage';
 import Form from './components/pages/Home Content/Form'
 import Coaches from './components/pages/Coaches Content/coaches';
+import Events from './components/pages/Events Content/Events';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path = '/Portal' element={<Portal/>}/>
       <Route path = '/Coaches' element={<Coaches/>}/>
       <Route path = '/Membership' element={<Form/>}/>
+      <Route path = '/Events' element={<Events/>}/>
     </Routes>
     </>
   );
