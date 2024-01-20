@@ -37,6 +37,35 @@
   animation-iteration-count: infinite;
 }
 
+#name{
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(255, 221, 29);
+}
+
+#image{
+  max-width: 200px;
+}
+
+#para{
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(255, 221, 29);
+  color: white;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+#athete-words{
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#images{
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(255, 221, 29);
+}
+
 #distance {
   margin: 0 0 0 0;
   justify-content: center;
