@@ -19,7 +19,7 @@ body {
 
 /*HEADER*/
 .navbar{
-  background-color: rgb(144, 24, 255, 0.1);
+  background-color: rgb(144, 24, 255, 0.5);
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -31,7 +31,7 @@ body {
 }
 
 #lists{
-  color: rgb(144,24,255);
+  color: white;
 
 }
 
