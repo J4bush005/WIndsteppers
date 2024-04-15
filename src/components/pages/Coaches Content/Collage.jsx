@@ -12,71 +12,37 @@ import Media from "react-media";
 function Collage() {
   return (
     <>
-    <Media query="(max-width: 767px)">
+ 
         <div id="border">
       <div className="d-flex">
         <div className="col-lg-3 col-4">
-          <img src={Coach} alt="" className="img-fluid" style={{ height: "200px", objectFit: "cover" }}/>
+          <img src={Coach} alt="" className="img-fluid" id="ratio"/>
         </div>
           <div className="col-lg-3 col-4">
-          <img src={Coaches2} alt="" className="img-fluid" style={{  height: "200px", objectFit: "cover" }}/>
+          <img src={Coaches2} alt="" className="img-fluid" id="ratio"/>
         </div>
           <div className="col-lg-3 col-4">
-          <img src={Coaches3} alt="" className="img-fluid" style={{  height: "200px", objectFit: "cover" }}/>
+          <img src={Coaches3} alt="" className="img-fluid" id="ratio"/>
         </div>
           <div className="col-lg-3 col-4">
-          <img src={Coaches4} alt="" className="img-fluid" style={{  height: "200px", objectFit: "cover" }}/>
-        </div>
-      </div>
-      <div className="d-flex">
-      <div className="col-lg-3 col-4">
-      <img src={Coaches5} alt="" className="img-fluid" style={{ height: "150px", objectFit: "cover" }}/>
-      </div>
-          <div className="col-lg-3 col-4">
-      <img src={Coaches6} alt="" className="img-fluid" style={{height: "150px", objectFit: "cover" }}/>
-      </div>
-          <div className="col-lg-3 col-4">
-      <img src={Coaches7} alt="" className="img-fluid" style={{ height: "150px", objectFit: "cover" }}/>
-      </div>
-          <div className="col-lg-3 col-4">
-      <img src={Coaches8} alt="" className="img-fluid" style={{ height: "150px", objectFit: "cover" }}/>
-      </div>
-      </div>
-    </div>
-    </Media>
-
-    <Media query="(min-width: 768px)">
-    <div id="border">
-      <div className="d-flex">
-        <div className="col-lg-3 col-4">
-          <img src={Coach} alt="" className="img-fluid" style={{ height: "570px", objectFit: "cover" }}/>
-        </div>
-          <div className="col-lg-3 col-4">
-          <img src={Coaches2} alt="" className="img-fluid" style={{ height: "570px", objectFit: "cover" }}/>
-        </div>
-          <div className="col-lg-3 col-4">
-          <img src={Coaches3} alt="" className="img-fluid" style={{ height: "570px", objectFit: "cover" }}/>
-        </div>
-          <div className="col-lg-3 col-4">
-          <img src={Coaches4} alt="" className="img-fluid" style={{ height: "570px", objectFit: "cover" }}/>
+          <img src={Coaches4} alt="" className="img-fluid" id="ratio"/>
         </div>
       </div>
       <div className="d-flex">
       <div className="col-lg-3 col-4">
-      <img src={Coaches5} alt="" className="img-fluid" style={{ height: "300px", objectFit: "cover" }}/>
+      <img src={Coaches5} alt="" className="img-fluid" id="ratio"/>
       </div>
           <div className="col-lg-3 col-4">
-      <img src={Coaches6} alt="" className="img-fluid" style={{ height: "300px", objectFit: "cover" }}/>
+      <img src={Coaches6} alt="" className="img-fluid" id="ratio"/>
       </div>
           <div className="col-lg-3 col-4">
-      <img src={Coaches7} alt="" className="img-fluid" style={{ height: "300px", objectFit: "cover" }}/>
+      <img src={Coaches7} alt="" className="img-fluid" id="ratio"/>
       </div>
           <div className="col-lg-3 col-4">
-      <img src={Coaches8} alt="" className="img-fluid" style={{ height: "300px", objectFit: "cover" }}/>
+      <img src={Coaches8} alt="" className="img-fluid" id="ratio"/>
       </div>
       </div>
     </div>
-    </Media>
     </>
   );
 }
