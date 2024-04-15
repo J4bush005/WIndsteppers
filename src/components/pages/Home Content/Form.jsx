@@ -36,12 +36,13 @@ const Form = () => {
   };
 
   return (
-    <div className="container-fluid">
+    <>
     <Header/>
+    <div className="container-fluid">
       <form ref={form} onSubmit={sendEmail}>
         <div class="row g-3 d-flex justify-content-center mt-5">
           <div className="col-6">
-            <label class="form-label topper" id="name">Name:</label>
+            <label class="form-label topper" id="names">Name:</label>
             <input
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -54,7 +55,7 @@ const Form = () => {
           </div>
           <div className="row g-3 d-flex justify-content-center">
             <div className="col-6">
-              <label class="form-label topper" id="name">Child's Name:</label>
+              <label class="form-label topper" id="names">Child's Name:</label>
               <input
                 value={child}
                 onChange={(e) => setChild(e.target.value)}
@@ -68,7 +69,7 @@ const Form = () => {
           </div>
           <div className="row g-3 d-flex justify-content-center">
             <div className="col-6">
-              <label class="form-label topper" id="name">Number:</label>
+              <label class="form-label topper" id="names">Number:</label>
               <input
                 value={number}
                 onChange={(e) => setNumber(e.target.value)}
@@ -83,7 +84,7 @@ const Form = () => {
 
           <div className="row g-3 d-flex justify-content-center">
             <div className="col-6">
-              <label class="form-label" id="name">Email:</label>
+              <label class="form-label" id="names">Email:</label>
               <input
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -104,6 +105,7 @@ const Form = () => {
 
       <Footer />
     </div>
+    </>
   );
 };
 

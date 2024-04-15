@@ -39,7 +39,7 @@ function Footer() {
   
               <div class="col-md-2">
                 <h6 class="text-uppercase font-weight-bold">
-                <a href="/Estimate" class="foot-hover h6">
+                <a href="/Membership" class="foot-hover h6">
                     Join the Family
                   </a>
                 </h6>
