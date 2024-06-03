@@ -46,7 +46,7 @@ function Footer() {
               </div>
               <div class="col-md-2 ">
                 <h6 class="text-uppercase font-weight-bold">
-                  <a href='https://smbctgm.org/' target='page' class="foot-hover h6">
+                  <a href='https://iamsmbc.org' target='page' class="foot-hover h6">
                     SMBC Baptist Church
                   </a>
                 </h6>
